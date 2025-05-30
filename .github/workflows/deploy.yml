@@ -1,0 +1,23 @@
+name: Deploy to Lightsail
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Deploy via SSH
+      uses: appleboy/ssh-action@master
+      with:
+        host: 3.149.137.243
+        username: ubuntu
+        key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
+        script: |
+          bash ~/deploy_skystrike.sh
