@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: .
+    ports:
+      - "4173:4173"
+    working_dir: /app/frontend
+    command: npm run dev -- --host
+    volumes:
+      - ./frontend:/app/frontend
+    environment:
+      - PORT=4173
+  backend:
+    build: .
+    ports:
+      - "3001:3001"
+    working_dir: /app/backend
+    command: node server.js
+    volumes:
+      - ./backend:/app/backend
+    environment:
+      - PORT=3001
+      - TRADIER_TOKEN=your_token_here
+      - TRADIER_BASE_URL=https://sandbox.tradier.com/v1/markets
+      - ACCOUNT_MODE=paper

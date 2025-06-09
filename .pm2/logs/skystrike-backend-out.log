@@ -1,0 +1,94 @@
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+SkyStrike backend running
+INFO:     208.102.185.88:63075 - "GET /health HTTP/1.1" 200 OK
+INFO:     208.102.185.88:63075 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     208.102.185.88:63119 - "GET /health HTTP/1.1" 200 OK
+INFO:     208.102.185.88:63119 - "GET /health HTTP/1.1" 200 OK
+INFO:     208.102.185.88:63120 - "GET /docs HTTP/1.1" 200 OK
+INFO:     208.102.185.88:63120 - "GET /docs HTTP/1.1" 200 OK
+INFO:     208.102.185.88:63120 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     208.102.185.88:63214 - "GET /docs HTTP/1.1" 200 OK
+INFO:     208.102.185.88:63214 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     44.220.188.29:57972 - "GET / HTTP/1.1" 404 Not Found
+INFO:     97.107.131.45:34110 - "GET / HTTP/1.1" 404 Not Found
+INFO:     139.99.35.37:56379 - "GET / HTTP/1.1" 404 Not Found
+INFO:     84.252.92.28:35976 - "GET / HTTP/1.1" 404 Not Found
+INFO:     84.252.92.28:53256 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:45040 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:58594 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:64776 - "GET /docs HTTP/1.1" 200 OK
+INFO:     74.215.103.58:64776 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     74.215.103.58:50885 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:50890 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     199.45.154.139:39096 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.139:56190 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.139:56206 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     199.45.154.139:58058 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.139:58098 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     199.45.154.139:58114 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:59254 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:51289 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:51393 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     94.102.55.18:39822 - "HEAD /playlist.m3u HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:51727 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:51887 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:60428 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:52260 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     138.197.133.47:40136 - "GET / HTTP/1.1" 404 Not Found
+INFO:     138.197.133.47:40138 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.13:16997 - "GET / HTTP/1.1" 404 Not Found
+INFO:     65.49.1.17:4011 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.19:40761 - "GET http%3A//api.ipify.org/?format=json HTTP/1.1" 404 Not Found
+INFO:     65.49.1.19:34389 - "CONNECT www.shadowserver.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:53488 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     195.184.76.228:37437 - "GET / HTTP/1.1" 404 Not Found
+INFO:     195.184.76.140:59087 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     20.84.61.38:33656 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:45094 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     199.45.155.107:49716 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.107:42562 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.107:42576 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     199.45.155.107:42592 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.155.107:39644 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     199.45.155.107:39664 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:50088 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     173.15.33.166:60881 - "GET / HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:50054 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:45390 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     152.32.247.22:50562 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.32.247.22:50740 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.32.247.22:50922 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     152.32.247.22:50924 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     152.53.248.175:53280 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found

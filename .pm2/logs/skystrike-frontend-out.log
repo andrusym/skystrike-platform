@@ -1,0 +1,64 @@
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+Port 4173 is in use, trying another one...
+  ➜  Local:   http://localhost:4174/
+  ➜  Network: http://172.26.1.2:4174/
+  ➜  Network: http://172.17.0.1:4174/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
