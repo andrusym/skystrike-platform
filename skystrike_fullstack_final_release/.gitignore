@@ -1,25 +1,63 @@
-# Ignore python environment files
+# Python
 venv/
-*.pyc
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
 
-# Ignore node/npm files
+# Node/Vite frontend
 node_modules/
 .npm/
-npm-debug.log
-yarn-error.log
+.yarn/
+*.log
+.vite/
+.vitepress/
+*.tsbuildinfo
 
-# Ignore PM2 logs
-.pm2/logs/
-
-# Ignore system files
-.DS_Store
-.env
+# PM2 logs and runtime
+.pm2/
+bot_run.log
 *.log
 
-# Ignore zip and history files
+# System
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
 *.zip
 *.history
 *.sqlite_history
 *.python_history
-.viminfo
+*.env
+.env.*
+
+# Editor configs
+.idea/
+.vscode/
+*.code-workspace
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# GitHub files (for safety)
+.github/workflows/*-example.yml
+
+# Local compiled binaries or shared libs
+*.so
+*.dll
+*.dylib
+*.out
+
+# Specific binaries and problematic files
+.local/
+skystrike-data/
+default-ssl.conf
+skystrike_fullstack_final_release.zip
