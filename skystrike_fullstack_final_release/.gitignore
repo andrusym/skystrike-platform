@@ -1,0 +1,25 @@
+# Ignore python environment files
+venv/
+*.pyc
+__pycache__/
+
+# Ignore node/npm files
+node_modules/
+.npm/
+npm-debug.log
+yarn-error.log
+
+# Ignore PM2 logs
+.pm2/logs/
+
+# Ignore system files
+.DS_Store
+.env
+*.log
+
+# Ignore zip and history files
+*.zip
+*.history
+*.sqlite_history
+*.python_history
+.viminfo
