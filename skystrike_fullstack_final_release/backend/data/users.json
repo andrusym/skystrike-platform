@@ -1,0 +1,8 @@
+{
+  "admin": {
+    "password_hash": "$2b$12$udp/JQ0gObz4O8aD.8jHi.nV0oIOBZNR8l3j3XIkBsOsI2RzJyWsi",
+    "goal": "balanced",
+    "account_size": 25000,
+    "tradier_mode": "paper"
+  }
+}

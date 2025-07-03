@@ -1,0 +1,7 @@
+fastapi
+pydantic
+pyjwt
+httpx
+numpy
+python-dotenv
+passlib

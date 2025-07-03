@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  skystrike-backend:
+    build: ./backend
+    container_name: skystrike-backend
+    restart: always
+    env_file:
+      - ./backend/.env.production
+    ports:
+      - "8000:8000"
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+
+  skystrike-frontend:
+    build: ./frontend
+    container_name: skystrike-frontend
+    restart: always
+    ports:
+      - "5173:80"
+    depends_on:
+      - skystrike-backend

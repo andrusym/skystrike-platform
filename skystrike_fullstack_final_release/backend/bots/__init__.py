@@ -1,0 +1,36 @@
+from backend.services.tradier_client import TradierClient
+import logging
+from backend.bots.base import TradierClient
+# backend/bots/__init__.py
+
+from .iron_condor    import build_order as ic_build
+from .kingcondor     import build_order as kc_build
+from .spread         import build_order as spread_build
+from .csp            import build_order as csp_build
+from .wheel          import build_order as wheel_build
+from .trend          import build_order as trend_build
+from .replicator     import build_order as rep_build
+from .copybot        import build_order as copy_build
+from .dcabot         import build_order as dca_build
+from .gridbot        import build_order as grid_build
+from .momentumbot    import build_order as momentum_build
+from .scalper        import build_order as scalp_build
+from .pairstrader    import build_order as pair_build
+from .equity_buy     import build_order as equity_buy_build
+
+__all__ = [
+    "ic_build",
+    "kc_build",
+    "spread_build",
+    "csp_build",
+    "wheel_build",
+    "trend_build",
+    "rep_build",
+    "copy_build",
+    "dca_build",
+    "grid_build",
+    "momentum_build",
+    "scalp_build",
+    "pair_build",
+    "equity_buy_build",
+]

@@ -1,0 +1,17 @@
+{
+  "ironcondor": {
+    "contracts": 2,
+    "ticker": "SPY",
+    "active": true
+  },
+  "spread": {
+    "contracts": 1,
+    "ticker": "SPY",
+    "active": true
+  },
+  "momentumbot": {
+    "contracts": 1,
+    "ticker": "SPY",
+    "active": true
+  }
+}

@@ -1,0 +1,20 @@
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:41652 - "POST /api/orders/place HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:60568 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:59490 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:55026 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:47022 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57292 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:36134 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 401 Unauthorized
+?? SUBMIT_ORDER DEBUG: Running bot=SPY, ticker=1, contracts=1
+?? Payload: {'class': 'equity', 'symbol': 1, 'side': 'buy_to_open', 'quantity': 1, 'type': 'market', 'duration': 'day'}
+?? PLACE ORDER DEBUG
+?? URL: https://sandbox.tradier.com/v1/accounts/your_sandbox_account_id/orders
+?? Headers: {'Authorization': 'Bearer your_sandbox_token_here', 'Content-Type': 'application/x-www-form-urlencoded', 'Accept': 'application/json'}
+?? Payload: {'class': 'equity', 'symbol': None, 'side': None, 'quantity': None, 'type': None, 'duration': None}
+?? ENV TOKEN (masked): your_san...
+? Tradier Response: 401 {"fault":{"faultstring":"Invalid Access Token","detail":{"errorcode":"keymanagement.service.invalid_access_token"}}}
+INFO:     127.0.0.1:52676 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 200 OK

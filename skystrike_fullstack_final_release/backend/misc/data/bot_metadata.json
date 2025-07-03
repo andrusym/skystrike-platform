@@ -1,0 +1,37 @@
+{
+  "Iron Condor": {
+    "risk_level": "medium",
+    "category": "neutral",
+    "style": "1DTE",
+    "execution_window": "10:00-11:00 ET",
+    "tickers": [
+      "NDX",
+      "QQQ",
+      "IWM",
+      "XSP",
+      "SPY"
+    ],
+    "description": "Short-term premium capture strategy using 1-day-to-expiration non-directional condors. Focuses on high theta decay with minimal exposure time."
+  },
+  "King Condor": {
+    "risk_level": "high",
+    "category": "premium",
+    "style": "0DTE",
+    "execution_window": "12:00-13:00 ET",
+    "tickers": [
+      "SPX"
+    ],
+    "description": "Intraday-only condor strategy using same-day expiration (0DTE) for SPX. High potential return with defined risk and tight exit timing."
+  },
+  "Trend Spread": {
+    "risk_level": "medium",
+    "category": "directional",
+    "style": "swing",
+    "execution_window": "09:30-10:30 ET",
+    "tickers": [
+      "SPY",
+      "QQQ"
+    ],
+    "description": "Directional credit/debit spreads following breakout confirmation and trend continuation setups. Mid-DTE with trailing stop logic."
+  }
+}

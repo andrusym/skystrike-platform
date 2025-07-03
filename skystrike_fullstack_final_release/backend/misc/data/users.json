@@ -1,0 +1,10 @@
+{
+  "testuser": {
+    "password_hash": "$2b$12$examplehash",
+    "goal": "balanced",
+    "account_size": 10000,
+    "tradier_token": "EXAMPLETOKEN123",
+    "tradier_mode": "paper",
+    "last_login": "2025-06-17T00:00:00Z"
+  }
+}

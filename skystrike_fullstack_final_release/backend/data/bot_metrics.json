@@ -1,0 +1,6 @@
+{
+  "ironcondor": { "win_rate": 0.72, "total_pnl": 4200 },
+  "kingcondor": { "win_rate": 0.61, "total_pnl": 900 },
+  "gridbot": { "win_rate": 0.53, "total_pnl": 250 },
+  "momentumbot": { "win_rate": 0.45, "total_pnl": -300 }
+}

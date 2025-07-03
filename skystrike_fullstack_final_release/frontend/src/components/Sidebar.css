@@ -1,0 +1,29 @@
+.sidebar {
+  width: 220px;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.sidebar h2 {
+  color: #0ef;
+}
+
+.sidebar nav a {
+  display: block;
+  color: white;
+  margin: 12px 0;
+  text-decoration: none;
+}
+
+.sidebar nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logout-button {
+  margin-top: 20px;
+  opacity: 0.5;
+  cursor: not-allowed;
+}

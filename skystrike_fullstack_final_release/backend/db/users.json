@@ -1,0 +1,9 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "webflow",
+    "goal": "balanced",
+    "account_size": 50000,
+    "tradier_mode": "paper"
+  }
+}

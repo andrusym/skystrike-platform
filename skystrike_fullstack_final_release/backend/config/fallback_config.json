@@ -1,0 +1,7 @@
+{
+  "ml_engine_down": false,
+  "retry_mode": false,
+  "cooldown_active": false,
+  "last_trigger": null,
+  "notes": "Initial fallback config created manually."
+}

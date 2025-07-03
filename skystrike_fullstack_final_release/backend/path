@@ -1,0 +1,135 @@
+Script started on 2025-06-15 17:54:10+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="127" LINES="35"]
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mpm2 delete skystrike-api[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpm2 delete skystrike-api
+[A
+[?2004l[32m[PM2] [39mApplying action deleteProcessId on app [skystrike-api](ids: [ 20 ])
+[32m[PM2] [39m[skystrike-api](20) ✓
+[90m┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐[39m
+[90m│[39m[1m[36m id [39m[22m[90m│[39m[1m[36m name               [39m[22m[90m│[39m[1m[36m mode     [39m[22m[90m│[39m[1m[36m ↺    [39m[22m[90m│[39m[1m[36m status    [39m[22m[90m│[39m[1m[36m cpu      [39m[22m[90m│[39m[1m[36m memory   [39m[22m[90m│[39m
+[90m├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤[39m
+[90m│[39m[1m[36m [1m[36m5[39m[36m[22m[1m  [39m[22m[90m│[39m skystrike-frontend [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 36   [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 64.9mb   [90m│[39m
+[90m└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘[39m
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mpm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" \[27m
+[7m  --name skystrike-api \[27m
+[7m  --interpreter $(which python3)[27m
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" \
+  --name skystrike-api \
+  --interpreter $(which python3)
+[A
+[?2004l[32m[PM2] [39mStarting /usr/bin/bash in fork_mode (1 instance)
+[32m[PM2] [39mDone.
+[90m┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐[39m
+[90m│[39m[1m[36m id [39m[22m[90m│[39m[1m[36m name               [39m[22m[90m│[39m[1m[36m mode     [39m[22m[90m│[39m[1m[36m ↺    [39m[22m[90m│[39m[1m[36m status    [39m[22m[90m│[39m[1m[36m cpu      [39m[22m[90m│[39m[1m[36m memory   [39m[22m[90m│[39m
+[90m├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤[39m
+[90m│[39m[1m[36m [1m[36m21[39m[36m[22m[1m [39m[22m[90m│[39m skystrike-api      [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 0    [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 6.0mb    [90m│[39m
+[90m│[39m[1m[36m [1m[36m5[39m[36m[22m[1m  [39m[22m[90m│[39m skystrike-frontend [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 36   [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 64.9mb   [90m│[39m
+[90m└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘[39m
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mpm2 save[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpm2 save
+[A
+[?2004l[32m[PM2] [39mSaving current process list...
+[32m[PM2] [39mSuccessfully saved in /home/ubuntu/.pm2/dump.pm2
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mcurl http://127.0.0.1:8000/api/dashboard/health[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccurl http://127.0.0.1:8000/api/dashboard/health
+[A
+[?2004l{"detail":"Not Found"}[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mpm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" \[27m
+[7m  --name skystrike-api \[27m
+[7m  --interpreter $(which python3)[27m
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" \
+  --name skystrike-api \
+  --interpreter $(which python3)
+[A
+[?2004l[32m[PM2] [39mStarting /usr/bin/bash in fork_mode (1 instance)
+[32m[PM2] [39mDone.
+[90m┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐[39m
+[90m│[39m[1m[36m id [39m[22m[90m│[39m[1m[36m name               [39m[22m[90m│[39m[1m[36m mode     [39m[22m[90m│[39m[1m[36m ↺    [39m[22m[90m│[39m[1m[36m status    [39m[22m[90m│[39m[1m[36m cpu      [39m[22m[90m│[39m[1m[36m memory   [39m[22m[90m│[39m
+[90m├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤[39m
+[90m│[39m[1m[36m [1m[36m21[39m[36m[22m[1m [39m[22m[90m│[39m skystrike-api      [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 15   [90m│[39m [31m[1merrored[22m[39m   [90m│[39m 0%       [90m│[39m 0b       [90m│[39m
+[90m│[39m[1m[36m [1m[36m22[39m[36m[22m[1m [39m[22m[90m│[39m skystrike-api      [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 0    [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 5.9mb    [90m│[39m
+[90m│[39m[1m[36m [1m[36m5[39m[36m[22m[1m  [39m[22m[90m│[39m skystrike-frontend [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 36   [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 64.9mb   [90m│[39m
+[90m└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘[39m
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mpm2 delete 21[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpm2 delete 21
+[A
+[?2004l[32m[PM2] [39mApplying action deleteProcessId on app [21](ids: [ '21' ])
+[32m[PM2] [39m[21](21) ✓
+[90m┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐[39m
+[90m│[39m[1m[36m id [39m[22m[90m│[39m[1m[36m name               [39m[22m[90m│[39m[1m[36m mode     [39m[22m[90m│[39m[1m[36m ↺    [39m[22m[90m│[39m[1m[36m status    [39m[22m[90m│[39m[1m[36m cpu      [39m[22m[90m│[39m[1m[36m memory   [39m[22m[90m│[39m
+[90m├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤[39m
+[90m│[39m[1m[36m [1m[36m22[39m[36m[22m[1m [39m[22m[90m│[39m skystrike-api      [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 15   [90m│[39m [31m[1merrored[22m[39m   [90m│[39m 0%       [90m│[39m 0b       [90m│[39m
+[90m│[39m[1m[36m [1m[36m5[39m[36m[22m[1m  [39m[22m[90m│[39m skystrike-frontend [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 36   [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 64.9mb   [90m│[39m
+[90m└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘[39m
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mpm2 delete skystrike-api[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpm2 delete skystrike-api
+[A
+[?2004l[32m[PM2] [39mApplying action deleteProcessId on app [skystrike-api](ids: [ 22 ])
+[32m[PM2] [39m[skystrike-api](22) ✓
+[90m┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐[39m
+[90m│[39m[1m[36m id [39m[22m[90m│[39m[1m[36m name               [39m[22m[90m│[39m[1m[36m mode     [39m[22m[90m│[39m[1m[36m ↺    [39m[22m[90m│[39m[1m[36m status    [39m[22m[90m│[39m[1m[36m cpu      [39m[22m[90m│[39m[1m[36m memory   [39m[22m[90m│[39m
+[90m├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤[39m
+[90m│[39m[1m[36m [1m[36m5[39m[36m[22m[1m  [39m[22m[90m│[39m skystrike-frontend [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 36   [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 64.9mb   [90m│[39m
+[90m└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘[39m
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mpm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" --nam[27m[7me[27m[7m skystrike-api --interpreter $(which python3) [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" --name skystrike-api --interpreter $(which python3)
+[A
+[?2004l[32m[PM2] [39mStarting /usr/bin/bash in fork_mode (1 instance)
+[32m[PM2] [39mDone.
+[90m┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐[39m
+[90m│[39m[1m[36m id [39m[22m[90m│[39m[1m[36m name               [39m[22m[90m│[39m[1m[36m mode     [39m[22m[90m│[39m[1m[36m ↺    [39m[22m[90m│[39m[1m[36m status    [39m[22m[90m│[39m[1m[36m cpu      [39m[22m[90m│[39m[1m[36m memory   [39m[22m[90m│[39m
+[90m├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤[39m
+[90m│[39m[1m[36m [1m[36m23[39m[36m[22m[1m [39m[22m[90m│[39m skystrike-api      [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 0    [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 5.9mb    [90m│[39m
+[90m│[39m[1m[36m [1m[36m5[39m[36m[22m[1m  [39m[22m[90m│[39m skystrike-frontend [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 36   [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 64.9mb   [90m│[39m
+[90m└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘[39m
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mcurl http://127.0.0.1:8000/api/dashboard/health[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccurl http://127.0.0.1:8000/api/dashboard/health
+[A
+[?2004l{"detail":"Not Found"}[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mnano routes/__init__.py[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano routes/__init__.py
+[A
+[?2004l[?2004h[?1049h[22;0;0t[1;35r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[33;57H(B[0;7m[ Reading... ](B[m[33;56H(B[0;7m[ Read 10 lines ](B[m[H(B[0;7m  GNU nano 6.2                                           routes/__init__.py                                                    [1;126H(B[m[34d(B[0;7m^G(B[m Help[34;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[34;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[35d(B[0;7m^X(B[m Exit[35;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36mfrom[39m(B[m fastapi (B[0;1m[36mimport[39m(B[m APIRouter[4d(B[0;1m[36mfrom[39m(B[m routes.dashboard_routes (B[0;1m[36mimport[39m(B[m router (B[0;1m[36mas[39m(B[m dashboard_router[5d(B[0;1m[36mfrom[39m(B[m routes.dashboard (B[0;1m[36mimport[39m(B[m router (B[0;1m[36mas[39m(B[m dashboard_data_router[6d(B[0;1m[36mfrom[39m(B[m routes.system_health_route (B[0;1m[36mimport[39m(B[m router (B[0;1m[36mas[39m(B[m system_health_router[8drouter = APIRouter()[9drouter.include_router(dashboard_router)[10drouter.include_router(dashboard_data_router)[11drouter.include_router(system_health_router)[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;77H(B[0;7m*[126G(B[m[13d[?12l[?25h[?25lprint((B[0;1m[32m"✅ ROUTERS BEING LOADED"[39m(B[m)[15d(B[0;1m[36mfor[39m(B[m route (B[0;1m[36min[39m(B[m router.routes:[16;5Hprint(f(B[0;1m[32m"🔹 Route: {route.path} — {route.name}"[39m(B[m)[33d[K[17d[?12l[?25h[?25l[34;16H[16X[34;32H(B[0;7mM-D(B[m DOS Format      [34;61H  (B[0;7mM-A(B[m Append[21X[34;94H(B[0;7mM-B(B[m Backup File[K[35;2H(B[0;7mC(B[m Cancel[16G[16X[35;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[35;94H(B[0;7m^T(B[m Browse[K[33d(B[0;7mFile Name to Write: routes/__init__.py                                                                                         [33;39H(B[m[?12l[?25h[?25l[33;56H[1K (B[0;7m[ Writing... ](B[m[K[1;77H(B[0;7m [126G(B[m[33;55H(B[0;7m[ Wrote 15 lines ](B[m[34;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[34;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[35;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[17d[?25l[33d[J[35d[?12l[?25h[35;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ubuntu@ip-172-26-1-2: ~/skystrike_fullstack_final_release/backendubuntu@ip-172-26-1-2:~/skystrike_fullstack_final_release/backend$ [7mpm2 restart skystrike-api[27m
+[7mpm2 logs skystrike-api[27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpm2 restart skystrike-api
+pm2 logs skystrike-api
+[A
+[?2004l[1m[34mUse --update-env to update environment variables[39m[22m
+[32m[PM2] [39mApplying action restartProcessId on app [skystrike-api](ids: [ 23 ])
+[32m[PM2] [39m[skystrike-api](23) ✓
+[90m┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐[39m
+[90m│[39m[1m[36m id [39m[22m[90m│[39m[1m[36m name               [39m[22m[90m│[39m[1m[36m mode     [39m[22m[90m│[39m[1m[36m ↺    [39m[22m[90m│[39m[1m[36m status    [39m[22m[90m│[39m[1m[36m cpu      [39m[22m[90m│[39m[1m[36m memory   [39m[22m[90m│[39m
+[90m├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤[39m
+[90m│[39m[1m[36m [1m[36m23[39m[36m[22m[1m [39m[22m[90m│[39m skystrike-api      [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 15   [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 5.9mb    [90m│[39m
+[90m│[39m[1m[36m [1m[36m5[39m[36m[22m[1m  [39m[22m[90m│[39m skystrike-frontend [90m│[39m [7m[1mfork[22m[27m     [90m│[39m 36   [90m│[39m [32m[1monline[22m[39m    [90m│[39m 0%       [90m│[39m 64.9mb   [90m│[39m
+[90m└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘[39m
+[1m[90m[TAILING] Tailing last 15 lines for [skystrike-api] process (change the value with --lines option)[39m[22m
+[90m/home/ubuntu/.pm2/logs/skystrike-api-out.log last 15 lines:[39m
+[32m23|skystri | [39mINFO:     127.0.0.1:46584 - "GET /api/trades/log HTTP/1.1" 404 Not Found
+[32m23|skystri | [39mINFO:     127.0.0.1:50852 - "POST /api/auth/login HTTP/1.1" 200 OK
+[32m23|skystri | [39mINFO:     127.0.0.1:50860 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+[32m23|skystri | [39mINFO:     127.0.0.1:50864 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+[32m23|skystri | [39mINFO:     167.94.138.117:40912 - "GET / HTTP/1.1" 200 OK
+[32m23|skystri | [39mINFO:     167.94.138.117:40974 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[32m23|skystri | [39mINFO:     167.94.138.117:46508 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[32m23|skystri | [39mINFO:     45.82.78.254:38744 - "GET / HTTP/1.1" 200 OK
+[32m23|skystri | [39mINFO:     167.94.138.117:33630 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+[32m23|skystri | [39mINFO:     167.94.138.117:47628 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[32m23|skystri | [39mINFO:     3.137.73.221:53086 - "GET / HTTP/1.1" 200 OK
+[32m23|skystri | [39mINFO:     3.137.73.221:53092 - "GET / HTTP/1.1" 200 OK
+[32m23|skystri | [39mINFO:     3.132.23.201:43182 - "GET / HTTP/1.1" 200 OK
+[32m23|skystri | [39mINFO:     3.132.23.201:40444 - "GET / HTTP/1.1" 200 OK
+[32m23|skystri | [39mINFO:     3.132.23.201:39674 - "GET / HTTP/1.1" 200 OK
+
+[90m/home/ubuntu/.pm2/logs/skystrike-api-error.log last 15 lines:[39m
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+[31m23|skystri | [39mSyntaxError: Non-UTF-8 code starting with '\x82' in file /usr/bin/bash on line 2, but no encoding declared; see https://python.org/dev

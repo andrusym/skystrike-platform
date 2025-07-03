@@ -1,0 +1,14 @@
+{
+  "VTI": {
+    "shares": 10,
+    "price": 230.0
+  },
+  "SCHD": {
+    "shares": 20,
+    "price": 75.0
+  },
+  "JEPI": {
+    "shares": 30,
+    "price": 55.0
+  }
+}

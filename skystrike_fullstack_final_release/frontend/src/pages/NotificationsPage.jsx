@@ -1,0 +1,1 @@
+import React from 'react'; export default () => <div>Notifications Center (Beta)</div>;

@@ -1,0 +1,42 @@
+{
+  "ironcondor": {
+    "confidence": 0.876,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "kingcondor": {
+    "confidence": 0.788,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "spread": {
+    "confidence": 0.828,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "replicator": {
+    "confidence": 0.764,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "gridbot": {
+    "confidence": 0.724,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "dcabot": {
+    "confidence": 0.5,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "scalper": {
+    "confidence": 0.392,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "pairstrader": {
+    "confidence": 0.252,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "momentumbot": {
+    "confidence": 0.16,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  },
+  "copybot": {
+    "confidence": 0.1,
+    "timestamp": "2025-06-29T21:27:11.584315"
+  }
+}

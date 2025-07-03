@@ -1,0 +1,109 @@
+? SkyStrike backend main.py has started.
+INFO:     Started server process [425882]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [425882]
+? SkyStrike backend main.py has started.
+INFO:     Started server process [425932]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:41652 - "POST /api/orders/place HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:60568 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:59490 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:55026 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:47022 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57292 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/encoders.py", line 324, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/encoders.py", line 329, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 327, in app
+    content = await serialize_response(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 201, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/encoders.py", line 289, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/encoders.py", line 332, in jsonable_encoder
+    raise ValueError(errors) from e
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [425932]
+sys:1: RuntimeWarning: coroutine 'run_bot_with_params' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+? SkyStrike backend main.py has started.
+INFO:     Started server process [426003]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [426003]
+? SkyStrike backend main.py has started.
+INFO:     Started server process [426021]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:36134 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 401 Unauthorized
+?? SUBMIT_ORDER DEBUG: Running bot=SPY, ticker=1, contracts=1
+?? Payload: {'class': 'equity', 'symbol': 1, 'side': 'buy_to_open', 'quantity': 1, 'type': 'market', 'duration': 'day'}
+?? PLACE ORDER DEBUG
+?? URL: https://sandbox.tradier.com/v1/accounts/your_sandbox_account_id/orders
+?? Headers: {'Authorization': 'Bearer your_sandbox_token_here', 'Content-Type': 'application/x-www-form-urlencoded', 'Accept': 'application/json'}
+?? Payload: {'class': 'equity', 'symbol': None, 'side': None, 'quantity': None, 'type': None, 'duration': None}
+?? ENV TOKEN (masked): your_san...
+? Tradier Response: 401 {"fault":{"faultstring":"Invalid Access Token","detail":{"errorcode":"keymanagement.service.invalid_access_token"}}}
+INFO:     127.0.0.1:52676 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 200 OK

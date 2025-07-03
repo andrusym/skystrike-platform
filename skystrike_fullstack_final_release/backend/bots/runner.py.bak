@@ -1,0 +1,23 @@
+import logging
+# backend/bots/runner.py
+
+from backend.bots.base import TradierClient
+from typing import Dict
+
+from backend.bots.iron_condor import build_order as ic_build
+from backend.bots.kingcondor import build_order as kc_build
+from backend.bots.spread import build_order as spread_build
+from backend.bots.csp import build_order as csp_build
+from backend.bots.wheel import build_order as wheel_build
+from backend.bots.trend import build_order as trend_build
+from backend.bots.replicator import build_order as rep_build
+from backend.config import settings  # shared config with resolved credentials
+
+# Use settings to dynamically resolve mode and account
+MODE = settings.TRADE_MODE
+ACCOUNT_ID = settings.TRADIER_ACCOUNT_ID  # use already-resolved active account ID
+
+def build_order(bot_name: str, ticker: str, contracts: int, dte: int, confidence: float) -> Dict:
+
+    Args:
+        bot_name (str): Name_

@@ -1,0 +1,33 @@
+{
+  "class": "multileg",
+  "legs": [
+    {
+      "symbol": "SPY_20250627_400_P",
+      "side": "buy",
+      "quantity": 1,
+      "type": "market",
+      "duration": "day"
+    },
+    {
+      "symbol": "SPY_20250627_405_P",
+      "side": "sell",
+      "quantity": 1,
+      "type": "market",
+      "duration": "day"
+    },
+    {
+      "symbol": "SPY_20250627_420_C",
+      "side": "sell",
+      "quantity": 1,
+      "type": "market",
+      "duration": "day"
+    },
+    {
+      "symbol": "SPY_20250627_425_C",
+      "side": "buy",
+      "quantity": 1,
+      "type": "market",
+      "duration": "day"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "conservative": {
+    "scale": 1.0,
+    "description": "Minimal exposure, optimized for capital preservation."
+  },
+  "balanced": {
+    "scale": 1.5,
+    "description": "Moderate risk and return, balanced capital usage."
+  },
+  "aggressive": {
+    "scale": 2.0,
+    "description": "High capital utilization with increased contract sizes."
+  },
+  "extreme": {
+    "scale": 4.0,
+    "description": "Maximum allocation for high-risk, high-reward trades."
+  }
+}

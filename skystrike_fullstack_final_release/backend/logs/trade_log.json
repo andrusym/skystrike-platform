@@ -1,0 +1,32 @@
+[
+  {
+    "bot": "ironcondor",
+    "ticker": null,
+    "error": "Failed to build order: 400 Client Error:  for url: https://sandbox.tradier.com/v1/markets/quotes"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": null,
+    "error": "Failed to build order: 400 Client Error:  for url: https://sandbox.tradier.com/v1/markets/quotes"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": null,
+    "error": "Failed to build order: 400 Client Error:  for url: https://sandbox.tradier.com/v1/markets/quotes"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": null,
+    "error": "Failed to build order: 400 Client Error:  for url: https://sandbox.tradier.com/v1/markets/quotes"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": null,
+    "error": "Failed to build order: 400 Client Error:  for url: https://sandbox.tradier.com/v1/markets/quotes"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": null,
+    "error": "Failed to build order: 400 Client Error:  for url: https://sandbox.tradier.com/v1/markets/quotes"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "Iron Condor": {
+    "style": "1DTE",
+    "execution_window": "10:00-11:00 ET",
+    "tickers": {
+      "NDX": {
+        "capital": 6000,
+        "contracts": 3
+      },
+      "QQQ": {
+        "capital": 3000,
+        "contracts": 15
+      },
+      "IWM": {
+        "capital": 2000,
+        "contracts": 10
+      },
+      "XSP": {
+        "capital": 1400,
+        "contracts": 7
+      },
+      "SPY": {
+        "capital": 1400,
+        "contracts": 7
+      }
+    },
+    "total_capital": 13800,
+    "risk_profile": "conservative"
+  },
+  "King Condor": {
+    "style": "0DTE",
+    "execution_window": "12:00-13:00 ET",
+    "tickers": {
+      "SPX": {
+        "capital": 5000,
+        "contracts": 2
+      }
+    },
+    "total_capital": 5000,
+    "risk_profile": "conservative"
+  }
+}

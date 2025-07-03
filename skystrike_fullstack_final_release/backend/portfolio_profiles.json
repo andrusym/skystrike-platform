@@ -1,0 +1,53 @@
+{
+  "conservative": {
+    "ironcondor": {
+      "base_contracts": 1
+    },
+    "kingcondor": {
+      "base_contracts": 1
+    },
+    "wheel": {
+      "base_contracts": 1
+    }
+  },
+  "balanced": {
+    "ironcondor": {
+      "base_contracts": 2
+    },
+    "kingcondor": {
+      "base_contracts": 2
+    },
+    "spread": {
+      "base_contracts": 2
+    },
+    "csp": {
+      "base_contracts": 2
+    },
+    "replicator": {
+      "base_contracts": 2
+    }
+  },
+  "aggressive": {
+    "ironcondor": {
+      "base_contracts": 3
+    },
+    "kingcondor": {
+      "base_contracts": 3
+    },
+    "spread": {
+      "base_contracts": 3
+    },
+    "trend": {
+      "base_contracts": 3
+    },
+    "copybot": {
+      "base_contracts": 3
+    },
+    "gridbot": {
+      "base_contracts": 3
+    },
+    "dcabot": {
+      "base_contracts": 3
+    }
+  }
+}

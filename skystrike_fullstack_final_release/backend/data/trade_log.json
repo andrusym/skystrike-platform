@@ -1,0 +1,411 @@
+[
+  {
+    "timestamp": "2025-06-22T14:32:06.872375",
+    "strategy": "Iron Condor",
+    "symbol": "SPY",
+    "status": "OPEN",
+    "contracts": 1,
+    "legs": [
+      {
+        "type": "PUT",
+        "side": "SELL",
+        "strike": 430,
+        "expiry": "2025-06-23"
+      },
+      {
+        "type": "PUT",
+        "side": "BUY",
+        "strike": 420,
+        "expiry": "2025-06-23"
+      },
+      {
+        "type": "CALL",
+        "side": "SELL",
+        "strike": 450,
+        "expiry": "2025-06-23"
+      },
+      {
+        "type": "CALL",
+        "side": "BUY",
+        "strike": 460,
+        "expiry": "2025-06-23"
+      }
+    ],
+    "pnl": 0.0,
+    "bot": "ironcondor",
+    "meta": {
+      "confidence": 0.84,
+      "reason": "1 DTE condor selected by ML engine"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.872709",
+    "strategy": "King Condor",
+    "status": "OPEN",
+    "symbol": "QQQ",
+    "contracts": 1,
+    "legs": [
+      {
+        "type": "PUT",
+        "side": "SELL",
+        "strike": 340,
+        "expiry": "2025-06-23"
+      },
+      {
+        "type": "PUT",
+        "side": "BUY",
+        "strike": 325,
+        "expiry": "2025-06-23"
+      },
+      {
+        "type": "CALL",
+        "side": "SELL",
+        "strike": 365,
+        "expiry": "2025-06-23"
+      },
+      {
+        "type": "CALL",
+        "side": "BUY",
+        "strike": 380,
+        "expiry": "2025-06-23"
+      }
+    ],
+    "bot": "kingcondor",
+    "pnl": 0.0,
+    "meta": {
+      "confidence": 0.82,
+      "reason": "Double condor config for high IV conditions"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.873838",
+    "strategy": "Wheel",
+    "status": "OPEN",
+    "symbol": "AAPL",
+    "contracts": 1,
+    "legs": [
+      {
+        "type": "PUT",
+        "side": "SELL",
+        "strike": 183.0,
+        "expiry": null
+      }
+    ],
+    "bot": "wheel",
+    "pnl": 0.0,
+    "meta": {
+      "confidence": 0.74,
+      "reason": "Entry wheel at support zone for AAPL"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.875022",
+    "strategy": "Cash Secured Put",
+    "status": "OPEN",
+    "symbol": "AMD",
+    "contracts": 1,
+    "legs": [
+      {
+        "type": "PUT",
+        "side": "SELL",
+        "strike": 150.0,
+        "expiry": null
+      }
+    ],
+    "bot": "csp",
+    "pnl": 0.0,
+    "meta": {
+      "confidence": 0.78,
+      "reason": "CSP placed on AMD with strike $150.0, entry near $153.0"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.876231",
+    "strategy": "Trend Momentum",
+    "status": "OPEN",
+    "symbol": "QQQ",
+    "contracts": 2,
+    "legs": [
+      {
+        "type": "CALL",
+        "side": "BUY",
+        "strike": 460.0,
+        "expiry": null
+      }
+    ],
+    "bot": "trend",
+    "pnl": 0.0,
+    "meta": {
+      "confidence": 0.82,
+      "reason": "CALL triggered on QQQ at $465.0 from trend signal"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.877372",
+    "strategy": "spread",
+    "action": "executed",
+    "symbol": "SPY",
+    "contracts": 1,
+    "details": "Simulated trade execution"
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.878800",
+    "strategy": "Replicator of Iron Condor",
+    "status": "OPEN",
+    "symbol": "SPY",
+    "contracts": 1,
+    "entry_price": null,
+    "legs": [],
+    "bot": "replicator",
+    "pnl": 0.0,
+    "meta": {
+      "source": "Iron Condor",
+      "confidence": 0.85,
+      "reason": "Replicating trade from Iron Condor with 85.00% confidence"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.879993",
+    "strategy": "GridBot",
+    "status": "OPEN",
+    "symbol": "QQQ",
+    "contracts": 1,
+    "bot": "gridbot",
+    "pnl": 0.0,
+    "meta": {
+      "grid_size": 5,
+      "spacing": 1.0,
+      "note": "Initialized grid of 5 orders spaced 1.0 apart"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.881219",
+    "strategy": "DollarCostAveraging",
+    "status": "OPEN",
+    "symbol": "SPY",
+    "contracts": 1,
+    "bot": "dcabot",
+    "pnl": 0.0,
+    "meta": {
+      "interval_days": 7,
+      "note": "Scheduled recurring buys every 7 days"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.882612",
+    "strategy": "Scalper",
+    "status": "OPEN",
+    "symbol": "SPX",
+    "contracts": 1,
+    "bot": "scalper",
+    "pnl": 0.0,
+    "meta": {
+      "risk_limit": 150,
+      "note": "Scalper entry with 150 max risk"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.883799",
+    "strategy": "PairStrader",
+    "status": "OPEN",
+    "symbol": "XOM/CVX",
+    "contracts": 1,
+    "bot": "pairstrader",
+    "pnl": 0.0,
+    "meta": {
+      "spread_threshold": 2.5,
+      "note": "Pair trade on XOM and CVX"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.885182",
+    "strategy": "MomentumBot",
+    "status": "OPEN",
+    "symbol": "QQQ",
+    "contracts": 1,
+    "bot": "momentumbot",
+    "pnl": 0.0,
+    "meta": {
+      "momentum_score": 0.85,
+      "note": "Momentum signal triggered on QQQ"
+    }
+  },
+  {
+    "timestamp": "2025-06-22T14:32:06.886684",
+    "strategy": "CopyBot",
+    "status": "OPEN",
+    "symbol": "AAPL",
+    "contracts": 1,
+    "bot": "copybot",
+    "pnl": 0.0,
+    "meta": {
+      "copied_from": "external_signal",
+      "note": "Mirrored trade from external_signal"
+    }
+  },
+  {
+    "timestamp": "2025-06-24T12:31:29.130777",
+    "strategy": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "legs": [
+      {
+        "type": "put",
+        "action": "buy_to_open",
+        "strike": 499
+      },
+      {
+        "type": "put",
+        "action": "sell_to_open",
+        "strike": 500
+      },
+      {
+        "type": "call",
+        "action": "sell_to_open",
+        "strike": 500
+      },
+      {
+        "type": "call",
+        "action": "buy_to_open",
+        "strike": 501
+      }
+    ],
+    "broker_response": {
+      "status": "error",
+      "message": "Failed to parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw_response": "Invalid parameter, class: the number of legs must be greater than 1."
+    }
+  },
+  {
+    "timestamp": "2025-06-24T12:39:16.451171",
+    "strategy": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "legs": [
+      {
+        "action": "buy_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250624P00499000"
+      },
+      {
+        "action": "sell_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250624P00500000"
+      },
+      {
+        "action": "sell_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250624C00500000"
+      },
+      {
+        "action": "buy_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250624C00501000"
+      }
+    ],
+    "broker_response": {
+      "status": "error",
+      "message": "Failed to parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw_response": "Invalid parameter, class: the number of legs must be greater than 1."
+    }
+  },
+  {
+    "timestamp": "2025-06-24T13:33:31.916507",
+    "strategy": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "legs": [
+      {
+        "action": "buy_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625P00499000"
+      },
+      {
+        "action": "sell_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625P00500000"
+      },
+      {
+        "action": "sell_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625C00500000"
+      },
+      {
+        "action": "buy_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625C00501000"
+      }
+    ],
+    "broker_response": {
+      "status": "error",
+      "message": "Failed to parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw_response": "Invalid parameter, class: the number of legs must be greater than 1."
+    }
+  },
+  {
+    "timestamp": "2025-06-24T13:52:46.677789",
+    "strategy": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "legs": [
+      {
+        "action": "buy_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625P00499000"
+      },
+      {
+        "action": "sell_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625P00500000"
+      },
+      {
+        "action": "sell_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625C00500000"
+      },
+      {
+        "action": "buy_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625C00501000"
+      }
+    ],
+    "broker_response": {
+      "status": "error",
+      "message": "Failed to parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw_response": "Invalid parameter, class: the number of legs must be greater than 1."
+    }
+  },
+  {
+    "timestamp": "2025-06-24T14:37:26.786123",
+    "strategy": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "legs": [
+      {
+        "action": "buy_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625P00499000"
+      },
+      {
+        "action": "sell_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625P00500000"
+      },
+      {
+        "action": "sell_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625C00500000"
+      },
+      {
+        "action": "buy_to_open",
+        "quantity": 1,
+        "option_symbol": "SPY250625C00501000"
+      }
+    ],
+    "broker_response": {
+      "status": "error",
+      "message": "Failed to parse JSON: Expecting value: line 1 column 1 (char 0)",
+      "raw_response": "Invalid parameter, class: the number of legs must be greater than 1."
+    }
+  }
+]

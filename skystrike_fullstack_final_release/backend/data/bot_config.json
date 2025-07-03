@@ -1,0 +1,41 @@
+{
+  "ironcondor": {
+    "SPY": 2,
+    "QQQ": 1
+  },
+  "kingcondor": {
+    "NDX": 1
+  },
+  "spread": {
+    "SPY": 1
+  },
+  "replicator": {
+    "SPY": 1
+  },
+  "wheel": {
+    "AAPL": 1,
+    "MSFT": 1
+  },
+  "trend": {
+    "NDX": 1,
+    "SPX": 1
+  },
+  "gridbot": {
+    "BTC": 0
+  },
+  "dcabot": {
+    "SPY": 0
+  },
+  "scalper": {
+    "QQQ": 0
+  },
+  "pairstrader": {
+    "SPY-QQQ": 0
+  },
+  "momentumbot": {
+    "SPY": 0
+  },
+  "copybot": {
+    "SPY": 0
+  }
+}

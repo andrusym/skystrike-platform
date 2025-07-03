@@ -1,0 +1,1 @@
+export default () => <div className='p-4'>Support Page (To be implemented)</div>;
