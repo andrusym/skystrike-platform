@@ -1,0 +1,15 @@
+{
+  "goal": "growth",
+  "bot_status": {
+    "ironcondor": "active",
+    "spread": "cooldown",
+    "replicator": "active",
+    "kingcondor": "cooldown"
+  },
+  "adjusted_allocation": {
+    "ironcondor": 1,
+    "kingcondor": 1,
+    "spread": 2,
+    "replicator": 2
+  }
+}

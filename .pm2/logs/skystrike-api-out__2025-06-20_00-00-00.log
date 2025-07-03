@@ -1,0 +1,238 @@
+INFO:     127.0.0.1:35936 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41232 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41246 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41258 - "GET /api/wealth/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40192 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40204 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40214 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40226 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51054 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37080 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37084 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33824 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33838 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35480 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35494 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52174 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52182 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52194 - "GET /api/risk/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52198 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52200 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:42814 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42828 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41038 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41050 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41062 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41070 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41086 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60558 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49024 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49026 - "GET /api/setup/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49028 - "GET /api/risk/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49036 - "GET /api/setup/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49052 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49062 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33892 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33908 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33914 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52904 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52908 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52920 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52926 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52940 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50632 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50646 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50648 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50660 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34144 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46040 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39974 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39986 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40000 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40010 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39256 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48744 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48754 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35686 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35694 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47920 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:43358 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43362 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43378 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43386 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39434 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39448 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39452 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39462 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39472 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39482 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60202 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60210 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45292 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45308 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33202 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33208 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33212 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33218 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33226 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33228 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57132 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57144 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57146 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51000 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33066 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48388 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54496 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54506 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46434 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46444 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60992 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32770 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57586 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:57594 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57608 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57620 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54720 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54728 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:54736 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:54740 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49920 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49922 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49926 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49932 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49938 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49950 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33204 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33218 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33230 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48472 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48480 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     8.140.234.136:52156 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     167.94.138.174:54826 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50824 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     167.94.138.174:32776 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50828 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50840 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50856 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38498 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38508 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:38516 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:38520 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38526 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38538 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38548 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38552 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:38564 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35184 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     167.94.138.174:44890 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38858 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38872 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38888 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47396 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:54440 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54450 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45312 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53254 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32824 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40982 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:36838 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     205.210.31.150:65438 - "GET / HTTP/1.1" 404 Not Found
+INFO:     31.220.41.108:51324 - "GET /playlist.m3u8 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52446 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52450 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45612 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45620 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53194 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53196 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53202 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53210 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53218 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53222 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58426 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58428 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:58440 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45350 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45362 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51718 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:51724 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51728 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51734 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51744 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51752 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54496 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54510 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50148 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50160 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50172 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50182 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52466 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52474 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52488 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52492 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52506 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58526 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60966 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60972 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60988 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:60996 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60998 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32774 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32786 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42594 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42610 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46372 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46380 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46390 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50614 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50622 - "GET /api/bots/status HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:43886 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54516 - "GET /api/broker/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56818 - "GET /api/system/broker/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47496 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47502 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60868 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60870 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60880 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55344 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55356 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33976 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33990 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34000 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34016 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34018 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40984 - "GET /api/v2/about HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35766 - "GET /api/v1/check-version HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35772 - "GET /api/server/version HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35784 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51798 - "GET /api/vip/i18n/api/v2/translation/products/vRNIUI/versions/1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51806 - "GET /api/v1.0/environment HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55256 - "GET /api/v3/meta HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55266 - "GET /api/v1/version HTTP/1.1" 404 Not Found
+INFO:     118.193.43.141:37920 - "GET / HTTP/1.1" 404 Not Found
+INFO:     165.154.119.19:45578 - "GET / HTTP/1.1" 404 Not Found
+INFO:     165.154.119.19:45894 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.154.119.19:46128 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     165.154.119.19:46130 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55352 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55356 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55368 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37174 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37190 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37206 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37212 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37224 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37234 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37236 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52948 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52960 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52968 - "GET /api/system/broker/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52978 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:52980 - "GET /api/strategies/toggle HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52982 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52990 - "GET /api/market/quotes?symbols=SPY HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52994 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53010 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57328 - "GET /api/dashboard HTTP/1.1" 200 OK

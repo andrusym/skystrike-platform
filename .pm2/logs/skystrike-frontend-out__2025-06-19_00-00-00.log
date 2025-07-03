@@ -1,0 +1,531 @@
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+Port 4173 is in use, trying another one...
+  ➜  Local:   http://localhost:4174/
+  ➜  Network: http://172.26.1.2:4174/
+  ➜  Network: http://172.17.0.1:4174/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+
+> skystrike-frontend@1.0.0 preview
+> vite preview --host 0.0.0.0 --port 4173
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: http://172.26.1.2:4173/
+  ➜  Network: http://172.17.0.1:4173/
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+Exposing /home/ubuntu/skystrike-v8.3/frontend/dist directory on 0.0.0.0:3000
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 9:58:14 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 9:58:14 PM 127.0.0.1 Returned 200 in 20 ms
+ HTTP  6/12/2025 9:58:15 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 9:58:15 PM 127.0.0.1 GET /assets/index-JJZn5f6T.js
+ HTTP  6/12/2025 9:58:15 PM 127.0.0.1 Returned 200 in 4 ms
+ HTTP  6/12/2025 9:58:15 PM 127.0.0.1 Returned 200 in 4 ms
+ HTTP  6/12/2025 9:58:15 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 9:58:15 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 9:58:15 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 9:58:15 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 9:58:16 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 9:58:16 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 9:59:43 PM 127.0.0.1 GET /+CSCOE+/logon.html
+ HTTP  6/12/2025 9:59:43 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  6/12/2025 10:04:48 PM 127.0.0.1 PROPFIND /
+ HTTP  6/12/2025 10:04:48 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 10:06:53 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 10:06:53 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 10:06:54 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 10:06:54 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 10:06:56 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 10:06:56 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 10:06:56 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 10:06:56 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 10:06:57 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 10:06:57 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 GET /assets/index-JJZn5f6T.js
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 10:07:05 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 10:07:47 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 10:07:47 PM 127.0.0.1 Returned 200 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 11:05:19 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:05:19 PM 127.0.0.1 Returned 200 in 16 ms
+ HTTP  6/12/2025 11:05:19 PM 127.0.0.1 GET /assets/index-D0J2Xmoe.js
+ HTTP  6/12/2025 11:05:19 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:05:19 PM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/12/2025 11:05:19 PM 127.0.0.1 Returned 200 in 5 ms
+ HTTP  6/12/2025 11:05:19 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:05:19 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:05:20 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:05:20 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:05:21 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:05:21 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 GET /assets/index-D0J2Xmoe.js
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:24:14 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:24:16 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:24:16 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:24:19 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:24:19 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:24:19 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:24:19 PM 127.0.0.1 GET /assets/index-D0J2Xmoe.js
+ HTTP  6/12/2025 11:24:19 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:24:19 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  6/12/2025 11:24:19 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:24:19 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:24:21 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:24:21 PM 127.0.0.1 Returned 200 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 Returned 200 in 36 ms
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 GET /assets/index-qgeXdf7y.js
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 Returned 200 in 5 ms
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 Returned 200 in 4 ms
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:25:32 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:25:33 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:25:33 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:26:39 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:26:39 PM 127.0.0.1 Returned 304 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 Returned 200 in 25 ms
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 GET /assets/index-DPUStp4y.js
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 Returned 304 in 4 ms
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 Returned 200 in 6 ms
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:30:06 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:30:07 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:30:07 PM 127.0.0.1 Returned 200 in 2 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 Returned 200 in 20 ms
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 GET /assets/index-gxQPhuSk.js
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 Returned 304 in 3 ms
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 Returned 200 in 4 ms
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:32:05 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:32:06 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:32:06 PM 127.0.0.1 Returned 200 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 11:41:55 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:41:55 PM 127.0.0.1 Returned 200 in 19 ms
+ HTTP  6/12/2025 11:41:56 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:41:56 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 GET /assets/index-D4XYtyc5.js
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 Returned 200 in 5 ms
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 Returned 200 in 8 ms
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:41:59 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:42:01 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:42:01 PM 127.0.0.1 Returned 200 in 4 ms
+ HTTP  6/12/2025 11:42:10 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:42:10 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:42:10 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:42:10 PM 127.0.0.1 GET /assets/index-D4XYtyc5.js
+ HTTP  6/12/2025 11:42:10 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:42:10 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:42:11 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:42:11 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:42:11 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:42:11 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:42:12 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:42:12 PM 127.0.0.1 Returned 200 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 Returned 200 in 19 ms
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 GET /assets/index-iI_ytqas.js
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 Returned 200 in 8 ms
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:47:25 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:47:28 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:47:28 PM 127.0.0.1 Returned 200 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 Returned 200 in 19 ms
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 GET /assets/index-iI_ytqas.js
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 Returned 304 in 4 ms
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 Returned 304 in 5 ms
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:53:55 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:53:56 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:53:56 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:54:19 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:54:19 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:54:19 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:54:19 PM 127.0.0.1 GET /assets/index-iI_ytqas.js
+ HTTP  6/12/2025 11:54:19 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  6/12/2025 11:54:19 PM 127.0.0.1 Returned 200 in 3 ms
+ HTTP  6/12/2025 11:54:22 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:54:22 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:54:22 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:54:22 PM 127.0.0.1 GET /assets/index-iI_ytqas.js
+ HTTP  6/12/2025 11:54:22 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:54:22 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:54:24 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:54:24 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:54:24 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:54:24 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:54:25 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:54:25 PM 127.0.0.1 Returned 200 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 GET /dashboard
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 Returned 200 in 20 ms
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 GET /assets/index-2v8G3lO3.js
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 Returned 200 in 7 ms
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:56:07 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/12/2025 11:56:09 PM 127.0.0.1 GET /favicon.ico
+ HTTP  6/12/2025 11:56:09 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 GET /dashboard
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 GET /assets/index-2v8G3lO3.js
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:29:29 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:29:31 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:29:31 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 GET /dashboard
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 GET /assets/index-2v8G3lO3.js
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 Returned 304 in 2 ms
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 GET /assets/index-ChqAabiM.css
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:38:14 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:38:16 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:38:16 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:41:06 AM 127.0.0.1 GET /
+ HTTP  6/13/2025 12:41:06 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 GET /dashboard
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 GET /assets/index-BBUoQTT9.js
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 GET /assets/index-gN6oZfMK.css
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 Returned 200 in 16 ms
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:46 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:48:52 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:52 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:48:55 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:55 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:48:56 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:56 AM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/13/2025 12:48:57 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:57 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:48:57 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:57 AM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  6/13/2025 12:48:59 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:59 AM 127.0.0.1 Returned 200 in 0 ms
+ HTTP  6/13/2025 12:48:59 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:48:59 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:49:00 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:49:00 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:49:00 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:49:00 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:49:03 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:49:03 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:49:04 AM 127.0.0.1 GET /setup
+ HTTP  6/13/2025 12:49:04 AM 127.0.0.1 Returned 200 in 0 ms
+ HTTP  6/13/2025 12:49:04 AM 127.0.0.1 GET /assets/index-gN6oZfMK.css
+ HTTP  6/13/2025 12:49:04 AM 127.0.0.1 GET /assets/index-BBUoQTT9.js
+ HTTP  6/13/2025 12:49:04 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  6/13/2025 12:49:04 AM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  6/13/2025 12:49:04 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:49:04 AM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  6/13/2025 12:49:05 AM 127.0.0.1 GET /favicon.ico
+ HTTP  6/13/2025 12:49:05 AM 127.0.0.1 Returned 200 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 GET /
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 Returned 200 in 20 ms
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 GET /assets/index-BWBgqLgK.js
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 GET /assets/index-DX6OSRaf.css
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 Returned 200 in 4 ms
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 Returned 200 in 7 ms
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 GET /skystrike-logo-dark.png
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 Returned 304 in 7 ms
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 GET /favicon.ico
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 Returned 200 in 2 ms
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 GET /favicon.ico
+ HTTP  6/14/2025 12:31:53 AM 74.215.103.58 Returned 304 in 1 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/14/2025 10:47:05 AM 74.215.103.58 GET /
+ HTTP  6/14/2025 10:47:05 AM 74.215.103.58 Returned 200 in 31 ms
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 GET /assets/index-HuOpXX0p.js
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 GET /assets/index-BS4FPCwS.css
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 Returned 200 in 6 ms
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 Returned 200 in 4 ms
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 GET /favicon.ico
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 Returned 200 in 2 ms
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 GET /skystrike-logo-dark.png
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 Returned 304 in 6 ms
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 GET /favicon.ico
+ HTTP  6/14/2025 10:47:08 AM 74.215.103.58 Returned 304 in 2 ms
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+ INFO  Accepting connections at http://localhost:4173
+
+ INFO  Gracefully shutting down. Please wait...
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+
+> skystrike-frontend@1.0.0 preview
+> vite preview
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose

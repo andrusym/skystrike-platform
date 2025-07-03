@@ -1,0 +1,60 @@
+?? Running all active bots...
+??  Executing ironcondor...
+Running ironcondor bot
+?  ironcondor completed successfully.
+
+??  Executing kingcondor...
+Running kingcondor bot
+?  kingcondor completed successfully.
+
+??  Executing wheel...
+Running wheel bot
+?  wheel completed successfully.
+
+??  Executing csp...
+Running csp bot
+?  csp completed successfully.
+
+??  Executing trend...
+Running trend bot
+?  trend completed successfully.
+
+??  Executing spread...
+Running spread bot
+?  spread completed successfully.
+
+??  Executing replicator...
+Running replicator bot
+?  replicator completed successfully.
+
+??  Executing gridbot...
+Running gridbot bot
+?  gridbot completed successfully.
+
+??  Executing dcabot...
+Running dcabot bot
+?  dcabot completed successfully.
+
+??  Executing scalper...
+Running scalper bot
+?  scalper completed successfully.
+
+??  Executing pairstrader...
+Running pairstrader bot
+?  pairstrader completed successfully.
+
+??  Executing momentumbot...
+Running momentumbot bot
+?  momentumbot completed successfully.
+
+??  Executing copybot...
+Running copybot bot
+?  copybot completed successfully.
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'engines'
+/bin/sh: 1: /home/ubuntu/skystrike_fullstack_final_release/backend/run_bots.sh: not found
+/bin/sh: 1: /home/ubuntu/skystrike_fullstack_final_release/backend/run_bots.sh: not found
+/bin/sh: 1: /home/ubuntu/skystrike_fullstack_final_release/backend/run_bots.sh: not found
+/bin/sh: 1: /home/ubuntu/skystrike_fullstack_final_release/backend/run_bots.sh: not found

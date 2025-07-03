@@ -1,0 +1,1624 @@
+Server running on http://localhost:8000
+Server running on http://localhost:8000
+Server running on http://localhost:8000
+Server running on http://localhost:8000
+Server running on http://localhost:8000
+Server running on http://localhost:8000
+Server running on http://localhost:8000
+Server running on http://localhost:8000
+API Server running at http://localhost:8000
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+?? Login route hit with: { username: 'testuser', password: 'testpass' }
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+? Auth routes loaded
+?? Initializing middleware...
+?? Mounting routes...
+? All routes mounted
+? API Server running at http://localhost:8000
+INFO:     127.0.0.1:33116 - "GET /api/auth/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52164 - "POST /api/auth/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44292 - "POST /api/auth/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43758 - "POST /api/auth/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41162 - "GET /api/auth/login HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:33316 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49732 - "GET /api/broker/account HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49734 - "GET /api/broker/quote?symbol=SPY HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:45994 - "GET /api/broker/account HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:38032 - "GET /api/broker/account HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56724 - "GET /api/broker/account HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:47622 - "GET / HTTP/1.1" 200 OK
+[DEBUG] GET https://api.tradier.com/v1/user/profile
+[DEBUG] Headers: {'Authorization': 'Bearer qu2jgkfsAGjybFLd54AZxeELEBtS', 'Accept': 'application/json'}
+[DEBUG] Status: 401
+[DEBUG] Body: {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:44548 - "GET /api/broker/account HTTP/1.1" 500 Internal Server Error
+[DEBUG] GET https://sandbox.tradier.com/v1/user/profile
+[DEBUG] Headers: {'Authorization': 'Bearer qu2jgkfsAGjybFLd54AZxeELEBtS', 'Accept': 'application/json'}
+[DEBUG] Status: 200
+[DEBUG] Body: {"profile":{"id":"id-sb-kfycc0to","name":"Yuri Andrus","account":{"account_number":"VA70062258","classification":"individual","date_created":"2025-05-28T14:19:03.000Z","day_trader":false,"option_level":6,"status":"active","type":"margin","last_update_date":"2025-05-28T14:19:03.000Z"}}}
+INFO:     127.0.0.1:37350 - "GET /api/broker/account HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55644 - "POST /api/broker/orders/preview HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:46352 - "POST /api/broker/orders/place HTTP/1.1" 422 Unprocessable Entity
+[DEBUG] GET https://sandbox.tradier.com/v1/user/profile
+[DEBUG] Headers: {'Authorization': 'Bearer qu2jgkfsAGjybFLd54AZxeELEBtS', 'Accept': 'application/json'}
+[DEBUG] Status: 200
+[DEBUG] Body: {"profile":{"id":"id-sb-kfycc0to","name":"Yuri Andrus","account":{"account_number":"VA70062258","classification":"individual","date_created":"2025-05-28T14:19:03.000Z","day_trader":false,"option_level":6,"status":"active","type":"margin","last_update_date":"2025-05-28T14:19:03.000Z"}}}
+[DEBUG] POST https://sandbox.tradier.com/v1/accounts/VA70062258/orders/preview
+[DEBUG] Headers: {'Authorization': 'Bearer qu2jgkfsAGjybFLd54AZxeELEBtS', 'Accept': 'application/json'}
+[DEBUG] Data: {'class': 'equity', 'symbol': 'SPY', 'side': 'buy', 'quantity': 1, 'type': 'market', 'duration': 'gtc'}
+[DEBUG] Status: 404
+[DEBUG] Body: Resource not found
+INFO:     127.0.0.1:42870 - "POST /api/broker/orders/preview?symbol=SPY&quantity=1&side=buy HTTP/1.1" 500 Internal Server Error
+[DEBUG] GET https://sandbox.tradier.com/v1/user/profile
+[DEBUG] Headers: {'Authorization': 'Bearer qu2jgkfsAGjybFLd54AZxeELEBtS', 'Accept': 'application/json'}
+[DEBUG] Status: 200
+[DEBUG] Body: {"profile":{"id":"id-sb-kfycc0to","name":"Yuri Andrus","account":{"account_number":"VA70062258","classification":"individual","date_created":"2025-05-28T14:19:03.000Z","day_trader":false,"option_level":6,"status":"active","type":"margin","last_update_date":"2025-05-28T14:19:03.000Z"}}}
+[DEBUG] POST https://sandbox.tradier.com/v1/accounts/VA70062258/orders
+[DEBUG] Headers: {'Authorization': 'Bearer qu2jgkfsAGjybFLd54AZxeELEBtS', 'Accept': 'application/json'}
+[DEBUG] Data: {'class': 'equity', 'symbol': 'SPY', 'side': 'buy', 'quantity': 1, 'type': 'market', 'duration': 'gtc'}
+[DEBUG] Status: 200
+[DEBUG] Body: {"order":{"id":18063291,"status":"ok","partner_id":"3a8bbee1-5184-4ffe-8a0c-294fbad1aee9"}}
+INFO:     127.0.0.1:59812 - "POST /api/broker/orders/place?symbol=SPY&quantity=1&side=buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49640 - "GET /api/broker/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49644 - "GET /api/broker/orders/status?order_id=18063291 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50356 - "GET /api/broker/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:47808 - "GET /api/broker/orders/logs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47824 - "GET /api/broker/orders/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45478 - "GET /api/broker/orders/logs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45488 - "GET /api/broker/orders/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45570 - "GET /api/broker/orders/logs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45584 - "GET /api/broker/orders/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45672 - "GET /api/broker/orders/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/broker/orders/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34542 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57834 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57846 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57858 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57868 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57876 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57892 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57904 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57930 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36674 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36690 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36700 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36708 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36714 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36718 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36722 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36728 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36736 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36888 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36890 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39534 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39540 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39546 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39556 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39570 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39582 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39594 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55818 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55826 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55830 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55844 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55846 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55872 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55888 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55892 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55894 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42964 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     91.196.152.211:52547 - "GET / HTTP/1.1" 200 OK
+INFO:     91.196.152.112:56029 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.140:32583 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.137:21221 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.133:48481 - "GET /?format=json HTTP/1.1" 200 OK
+INFO:     54.212.117.30:49502 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33970 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53444 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59410 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47934 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56680 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:51676 - "GET /docs HTTP/1.1" 200 OK
+INFO:     74.215.103.58:51676 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50732 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55406 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55416 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55420 - "GET /api/trades/log HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44764 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44770 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34182 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58012 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58014 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50862 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50864 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50872 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47816 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47826 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47828 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46588 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46602 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46594 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35440 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35450 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35452 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40914 - "GET /api/trades/log HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58196 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58216 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58210 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59388 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59392 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46434 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46452 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46450 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40628 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40640 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40654 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     162.142.125.114:53704 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.114:53710 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.114:33780 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.114:33806 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     162.142.125.114:59856 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     34.172.55.23:46824 - "GET /pdown HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:59122 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59138 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59142 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32974 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32984 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32990 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33004 - "GET /api/trades/log HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51508 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51520 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51530 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42808 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42818 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42820 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44848 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44856 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44854 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53460 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53468 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53484 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     205.210.31.141:59130 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36616 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36624 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36640 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36650 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36660 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36664 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36680 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38984 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38990 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38994 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39002 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     20.169.51.3:57968 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53920 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53936 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53942 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53944 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53946 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59114 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56800 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56802 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56810 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56812 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56824 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56828 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43704 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43708 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43712 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46584 - "GET /api/trades/log HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50852 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50860 - "GET /api/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50864 - "GET /api/dashboard/health HTTP/1.1" 404 Not Found
+INFO:     167.94.138.117:40912 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.117:40974 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.117:46508 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.82.78.254:38744 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.117:33630 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     167.94.138.117:47628 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     3.137.73.221:53086 - "GET / HTTP/1.1" 200 OK
+INFO:     3.137.73.221:53092 - "GET / HTTP/1.1" 200 OK
+INFO:     3.132.23.201:43182 - "GET / HTTP/1.1" 200 OK
+INFO:     3.132.23.201:40444 - "GET / HTTP/1.1" 200 OK
+INFO:     3.132.23.201:39674 - "GET / HTTP/1.1" 200 OK
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTERS BEING LOADED
+🔹 Route: /dashboard/health — dashboard_health
+🔹 Route: /api/dashboard — get_dashboard_data
+🔹 Route: /system/health — get_system_health
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+INFO:     127.0.0.1:44068 - "GET /api/dashboard/health HTTP/1.1" 200 OK
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/dashboard/health
+🔹 /
+INFO:     127.0.0.1:57954 - "GET /api/dashboard/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46984 - "GET /api/dashboard/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58298 - "GET /api/dashboard/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41252 - "GET /api/system/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39016 - "GET /api/system/health HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/strategies/state HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:45302 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+✅ ROUTES LOADED:
+🔹 /openapi.json
+🔹 /docs
+🔹 /docs/oauth2-redirect
+🔹 /redoc
+🔹 /api/api/dashboard
+🔹 /api/api/trades
+🔹 /api/api/trades/history
+🔹 /
+? ROUTES LOADED:
+?? /openapi.json
+?? /docs
+?? /docs/oauth2-redirect
+?? /redoc
+?? /api/dashboard
+?? /api/trades
+?? /api/trades/history
+?? /
+INFO:     127.0.0.1:38724 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/strategies/state HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/strategies/state HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/auth/login HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:56900 - "POST /api/login HTTP/1.1" 404 Not Found
+? ROUTES LOADED:
+?? /openapi.json
+?? /docs
+?? /docs/oauth2-redirect
+?? /redoc
+?? /api/login
+?? /api/dashboard
+?? /api/trades
+?? /api/trades/history
+?? /
+INFO:     127.0.0.1:44728 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     127.0.0.1:55404 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 401 Unauthorized
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     205.210.31.176:61186 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.48:50178 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.48:50210 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.48:36630 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.48:36892 - "GET /security.txt HTTP/1.1" 404 Not Found
+INFO:     206.168.34.48:46098 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.241:23323 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.241:40343 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.238:22601 - "GET /?format=json HTTP/1.1" 200 OK
+INFO:     199.45.154.147:57898 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.147:32782 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.147:32804 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.147:46812 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.147:46872 - "GET /wiki HTTP/1.1" 404 Not Found
+INFO:     199.45.154.147:46878 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.79.181.104:34478 - "GET / HTTP/1.1" 200 OK
+? ROUTES LOADED:
+?? /openapi.json
+?? /docs
+?? /docs/oauth2-redirect
+?? /redoc
+?? /api/api/dashboard
+?? /
+? ROUTES LOADED:
+?? /openapi.json
+?? /docs
+?? /docs/oauth2-redirect
+?? /redoc
+?? /api/api/dashboard
+?? /
+? ROUTES LOADED:
+?? /openapi.json
+?? /docs
+?? /docs/oauth2-redirect
+?? /redoc
+?? /api/api/dashboard
+?? /
+? ROUTES LOADED:
+?? /openapi.json
+?? /docs
+?? /docs/oauth2-redirect
+?? /redoc
+?? /api/api/api/dashboard
+?? /
+? ROUTES LOADED:
+?? /openapi.json
+?? /docs
+?? /docs/oauth2-redirect
+?? /redoc
+?? /api/api/api/dashboard
+?? /
+INFO:     127.0.0.1:41210 - "GET / HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     185.177.72.5:0 - "GET /api/dashboard.js HTTP/1.0" 404 Not Found
+INFO:     185.177.72.5:0 - "GET /api/dashboard.ts HTTP/1.0" 404 Not Found
+INFO:     185.177.72.5:0 - "GET /api/login.js HTTP/1.0" 404 Not Found
+INFO:     185.177.72.5:0 - "GET /api/login.ts HTTP/1.0" 404 Not Found
+INFO:     185.177.72.5:0 - "GET /api/dashboard.js HTTP/1.0" 404 Not Found
+INFO:     185.177.72.5:0 - "GET /api/dashboard.ts HTTP/1.0" 404 Not Found
+INFO:     185.177.72.5:0 - "GET /api/login.js HTTP/1.0" 404 Not Found
+INFO:     185.177.72.5:0 - "GET /api/login.ts HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:50256 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     195.184.76.32:37051 - "GET / HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     195.184.76.106:35703 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades/log HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     18.236.95.210:47414 - "HEAD /actuator/env HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     178.128.84.187:50614 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     178.128.84.187:50628 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     178.128.84.187:44736 - "GET / HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:56322 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57290 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/trades/log HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/trades/log HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:51440 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48378 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40786 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     45.131.155.254:40862 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51086 - "GET /routes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42686 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58076 - "GET /routes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35538 - "GET /routes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43016 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:35650 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/trades/log HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/strategies/state HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/orders/status/123456?token=YOUR_TOKEN HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/orders/preview HTTP/1.0" 422 Unprocessable Entity
+INFO:     74.215.103.58:0 - "GET /api/strategies/state HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:38096 - "GET /api/strategies HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:60114 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:34196 - "POST /api/register HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36132 - "GET /routes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48080 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33594 - "POST /api/register HTTP/1.1" 404 Not Found
+INFO:     198.235.24.224:65282 - "GET / HTTP/1.1" 200 OK
+INFO:     135.237.126.224:48354 - "GET / HTTP/1.1" 200 OK
+INFO:     64.225.66.59:55106 - "GET / HTTP/1.1" 200 OK
+INFO:     64.225.66.59:55116 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.82.78.254:43284 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     44.220.188.2:56228 - "GET / HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades/log HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:36842 - "GET /api/register HTTP/1.1" 405 Method Not Allowed
+INFO:     103.203.57.20:45228 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51832 - "POST /api/register HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:48032 - "POST /api/register HTTP/1.1" 409 Conflict
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     85.142.100.106:47372 - "GET / HTTP/1.0" 404 Not Found
+INFO:     3.130.96.91:54188 - "GET / HTTP/1.1" 404 Not Found
+INFO:     3.130.96.91:53524 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50374 - "POST /api/register HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:57668 - "POST /api/register HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:56500 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/trades/log HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:37046 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39310 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades/log HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades/log HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /api/login HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.0" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard/pnl-history HTTP/1.0" 200 OK
+INFO:     205.210.31.195:63768 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38328 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38340 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46668 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46682 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46688 - "GET /api/dashboard/pnl-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49810 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49820 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49828 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43710 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:43722 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43732 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52252 - "GET /api/trades HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37114 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37120 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37122 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37128 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37130 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37146 - "GET /api/broker/orders/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37150 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50382 - "GET /api/trades HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54838 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54842 - "GET /api/trades HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54844 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54858 - "POST /api/ml/refresh HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58734 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:58738 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58742 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45154 - "GET /api/trades HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59550 - "GET /api/trades HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43190 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36370 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36376 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:36382 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36390 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56132 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56134 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42844 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35138 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49082 - "GET /api/trades HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:60308 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60314 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48492 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48500 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48512 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48528 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50712 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50716 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50720 - "GET /api/broker/orders/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60114 - "GET /api/config HTTP/1.1" 404 Not Found
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:36572 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36586 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47244 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49112 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:49118 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49134 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50508 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50516 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50530 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50534 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50546 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50562 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50564 - "GET /api/broker/orders/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50572 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47758 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60612 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:60626 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60640 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41814 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:41820 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41836 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49246 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49256 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49258 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49268 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49274 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49284 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49294 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49310 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34506 - "GET /api/broker/orders/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34512 - "GET /api/config HTTP/1.1" 404 Not Found
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:34518 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58098 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58104 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58114 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58122 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58132 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57266 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41764 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52464 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37548 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52332 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:52334 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52342 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52344 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52346 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52362 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52364 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53702 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:53714 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53726 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53740 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53754 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45950 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45956 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45964 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45972 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45974 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:34920 - "GET /api/config HTTP/1.1" 404 Not Found
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:36016 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36032 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36044 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36052 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36054 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36064 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40984 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:40994 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41004 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41154 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41158 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51740 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51744 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:51640 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51642 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43000 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49150 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40140 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60382 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38696 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54326 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46620 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:39732 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41874 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:41882 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41880 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41890 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37102 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37112 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37114 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37126 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37142 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37158 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+Tradier API error: 401 Invalid Access Token
+INFO:     127.0.0.1:37168 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37178 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37182 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58724 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58926 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50816 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:50824 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50840 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50832 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:58972 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58982 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:58988 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59000 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58994 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:48114 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48116 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48126 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48136 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48148 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48164 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48176 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48180 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:57074 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57090 - "POST /api/config/toggle HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57096 - "POST /api/config/toggle HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56078 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56090 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46764 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:46770 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46788 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46784 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:46802 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46804 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45840 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45852 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45854 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45864 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45876 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45890 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45902 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45912 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45926 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42114 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40966 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:40980 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41002 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40992 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:41008 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41020 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41024 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55426 - "GET /api/strategies HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60014 - "GET /api/strategies HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57060 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56326 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47716 - "GET /api/strategies HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:40748 - "GET /api/strategies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35648 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:35664 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35686 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35680 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:50088 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50094 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57224 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:57236 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57242 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57238 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:57258 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57260 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37184 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:37192 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37208 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37200 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37224 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47868 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:47872 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47902 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47888 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:47908 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47918 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51842 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:51516 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51542 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51526 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:51546 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51552 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     148.255.60.189:55772 - "GET /playlist.m3u8 HTTP/1.1" 404 Not Found
+INFO:     167.94.138.37:55584 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.37:43372 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.37:60300 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     3.137.73.221:50164 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.115:58844 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.115:48748 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.115:48774 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.115:44126 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     198.235.24.67:63178 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.131.155.254:43404 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.82.78.254:40336 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:37948 - "GET / HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:38472 - "GET /manage/account/login HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:43034 - "GET /admin/index.html HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:50696 - "GET /%2BCSCOE%2B/logon.html HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:50326 - "GET /cgi-bin/login.cgi HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:33286 - "GET /login.htm HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:55500 - "GET /doc/index.html HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:48140 - "GET //admin/login.asp HTTP/1.1" 404 Not Found
+INFO:     104.234.115.53:42980 - "GET //webpages/login.html HTTP/1.1" 404 Not Found
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:60752 - "GET /api/trades HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:60756 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60784 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60768 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46676 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46688 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46696 - "GET /api/risk/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46702 - "GET /api/setup/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46704 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:38500 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60366 - "GET /api/risk/metrics HTTP/1.1" 200 OK
+INFO:     205.210.31.199:58468 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53552 - "GET /api/risk/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56040 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:56054 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56072 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56064 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56082 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53854 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53858 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53860 - "PATCH /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53870 - "POST /api/bots/trigger/detail HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36800 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36804 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56596 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38390 - "GET /api/bots/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38558 - "POST /api/login HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:38574 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38602 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38586 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38606 - "GET /api/bots/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53136 - "POST /api/bots/trigger/kingcondor HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52850 - "PATCH /api/bots/status HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:55490 - "GET /api/trades HTTP/1.1" 200 OK
+Tradier API error: 401 {"fault":{"faultstring":"Invalid API call as no apiproduct match found","detail":{"errorcode":"keymanagement.service.InvalidAPICallAsNoApiProductMatchFound"}}}
+INFO:     127.0.0.1:55504 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55530 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55520 - "GET /api/market/summary HTTP/1.1" 200 OK
+Tradier error: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:37768 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37782 - "GET /api/bots/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37784 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37792 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37796 - "GET /api/risk/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37798 - "GET /api/setup/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37808 - "GET /api/orders/history HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:37810 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54756 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     85.142.100.105:47850 - "GET / HTTP/1.0" 404 Not Found
+INFO:     85.142.100.107:60986 - "GET / HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:34274 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54814 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54964 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     45.131.155.254:38088 - "GET / HTTP/1.1" 404 Not Found
+INFO:     147.185.132.249:61210 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56426 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51072 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51078 - "GET /api/trades HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51082 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45298 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35628 - "GET /api/trades HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35630 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35632 - "GET /api/trades HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35648 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35654 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35658 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39234 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58124 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58180 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43936 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37860 - "POST /api/bots/trigger/gridbot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34120 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35226 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     85.142.100.107:54400 - "GET / HTTP/1.0" 404 Not Found
+INFO:     127.0.0.1:38438 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51046 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46250 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46254 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57762 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58628 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58642 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58652 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60430 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43780 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42736 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:42744 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58754 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55562 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55568 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50190 - "POST /api/register HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42396 - "POST /api/register HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47168 - "POST /api/register HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:51906 - "POST /api/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49608 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49616 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49618 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49630 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58944 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58948 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58952 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58962 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48372 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48388 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48400 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48416 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59908 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59916 - "GET /api/dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59930 - "GET /api/market/summary HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59944 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53708 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53722 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53724 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53732 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49000 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49016 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49020 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49036 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51824 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42872 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42898 - "GET /api/portfolio/final-recommendation HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42882 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42890 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52924 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45790 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45798 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45800 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45804 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45810 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45818 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45824 - "GET /api/market/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45840 - "GET /api/portfolio/final-recommendation HTTP/1.1" 200 OK

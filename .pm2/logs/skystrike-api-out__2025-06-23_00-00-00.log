@@ -1,0 +1,91 @@
+INFO:     127.0.0.1:60098 - "GET /api/dashboard HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:58870 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38172 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     205.210.31.193:62882 - "GET / HTTP/1.1" 404 Not Found
+INFO:     65.49.1.200:3589 - "GET / HTTP/1.1" 404 Not Found
+INFO:     65.49.1.193:42707 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.192:22323 - "GET /?format=json HTTP/1.1" 404 Not Found
+INFO:     206.168.34.37:54338 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.34.37:35506 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.37:50814 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     164.92.232.89:53010 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     164.92.232.89:53022 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     164.92.232.89:53030 - "GET / HTTP/1.1" 404 Not Found
+INFO:     185.195.233.141:50210 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     45.33.109.8:54050 - "GET / HTTP/1.1" 404 Not Found
+INFO:     172.105.128.12:59788 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36044 - "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43442 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:43446 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43456 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56316 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56330 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:60132 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60144 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56678 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50832 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47736 - "GET /api/fallbacks/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:60340 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38138 - "GET /api/fallbacks/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:35378 - "GET /api/fallbacks/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:59124 - "GET /api/fallbacks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54932 - "GET /api/fallbacks/ HTTP/1.1" 200 OK
+INFO:     157.230.234.89:44552 - "GET / HTTP/1.1" 404 Not Found
+INFO:     157.230.234.89:44564 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41748 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51466 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36440 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:47426 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:47578 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:59156 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:47228 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:43428 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:35940 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:41864 - "GET /api/dashboard HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:51492 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57330 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48396 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:47766 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:36014 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:32956 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44630 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:51904 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:54868 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57938 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:49926 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58768 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:48778 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:39982 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:48938 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:42914 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:33714 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:48026 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44402 - "GET /api/dashboard HTTP/1.1" 500 Internal Server Error
+🟢 SkyStrike backend main.py has started.
+🟢 SkyStrike backend main.py has started.
+🟢 SkyStrike backend main.py has started.
+🟢 SkyStrike backend main.py has started.
+🟢 SkyStrike backend main.py has started.
+🟢 SkyStrike backend main.py has started.
+? DEBUG: ml_status returned: {'status': 'online', 'minScore': 0.6, 'cooldownActive': False, 'fallbacksTriggered': 3}
+INFO:     127.0.0.1:55104 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     45.131.155.254:44556 - "GET / HTTP/1.1" 404 Not Found
+INFO:     68.183.8.234:58670 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54946 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+??? SkyStrike backend main.py has started.
+??? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:40356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49922 - "GET /api/bots/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59286 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:36714 - "GET /api/wealth/log HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36156 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:36160 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36166 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:36180 - "GET /api/dashboard HTTP/1.1" 401 Unauthorized
+?? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:34746 - "GET /api/health HTTP/1.1" 200 OK
+?? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:55400 - "GET /api/bots/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55518 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:36874 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36744 - "POST /api/bots/trigger/ironcondor HTTP/1.1" 500 Internal Server Error

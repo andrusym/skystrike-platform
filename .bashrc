@@ -115,3 +115,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+# === SkyStrike Environment Variables ===
+export TRADIER_API_TOKEN="qu2jgkfsAGjybFLd54AZxeELEBtSe"
+
+# === SkyStrike Broker Auth ===
+export TRADIER_API_TOKEN="qu2jgkfsAGjybFLd54AZxeELEBtS"
+export TRADIER_ACCOUNT_ID="VA70062258"
+
+export $(grep -v '^#' ~/skystrike_fullstack_final_release/backend/.env | xargs)

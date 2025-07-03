@@ -1,0 +1,851 @@
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:48406 - "POST /api/orders/place HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34940 - "POST /api/orders/ironcondor HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44274 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44840 - "POST /api/orders/place_all HTTP/1.1" 404 Not Found
+✅ order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:46154 - "POST /api/orders/place_all HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46160 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52376 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33592 - "POST /api/orders/place_all HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33598 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43110 - "POST /api/orders/place_all HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37096 - "POST /api/orders/place_all HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37102 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40172 - "POST /api/orders/place_all HTTP/1.1" 404 Not Found
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:32966 - "POST /api/orders/place_all HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:32976 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:38894 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52976 - "POST /api/orders/place_all HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52978 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:53540 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43430 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:33786 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58288 - "POST /api/orders/ironcondor?symbol=SPY&contracts=1&confidence=0.9 HTTP/1.1" 404 Not Found
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+[ERROR] Failed to import bot module 'iron condor': No module named 'backend.bots.iron condor'
+[ERROR] Failed to import bot module 'king condor': No module named 'backend.bots.king condor'
+[ERROR] Failed to build order for bot 'spread': build_order() missing 1 required positional argument: 'expiration'
+[ERROR] Failed to build order for bot 'csp': build_order() missing 1 required positional argument: 'expiration'
+[ERROR] Failed to build order for bot 'wheel': build_order() missing 1 required positional argument: 'expiration'
+[ERROR] Failed to build order for bot 'trend': build_order() missing 1 required positional argument: 'expiration'
+[ERROR] Failed to build order for bot 'replicator': build_order() missing 1 required positional argument: 'expiration'
+INFO:     127.0.0.1:43488 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+[ERROR] Failed to import bot module 'iron condor': No module named 'backend.bots.iron condor'
+[ERROR] Failed to import bot module 'king condor': No module named 'backend.bots.king condor'
+[ERROR] Failed to build order for bot 'spread': build_order not implemented for 'spread'
+[ERROR] Failed to build order for bot 'csp': build_order not implemented for 'csp'
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': build_order not implemented for 'trend'
+[ERROR] Failed to build order for bot 'replicator': build_order not implemented for 'replicator'
+INFO:     127.0.0.1:46216 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': build_order not implemented for 'kingcondor'
+[ERROR] Failed to build order for bot 'spread': build_order not implemented for 'spread'
+[ERROR] Failed to build order for bot 'csp': build_order not implemented for 'csp'
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': build_order not implemented for 'trend'
+[ERROR] Failed to build order for bot 'replicator': build_order not implemented for 'replicator'
+INFO:     127.0.0.1:41482 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:60788 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:42838 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:36362 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:35184 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:38392 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:41794 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:42026 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:44404 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:60674 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:52516 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'kingcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'spread': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': fromisoformat: argument must be str
+[ERROR] Failed to build order for bot 'trend': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'replicator': object dict can't be used in 'await' expression
+INFO:     127.0.0.1:39082 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+[?] Skipping 'spread': 'run' is not callable or missing
+[?] Skipping 'kingcondor': 'run' is not callable or missing
+[?] Skipping 'replicator': 'run' is not callable or missing
+[?] Skipping 'csp': 'run' is not callable or missing
+[?] Skipping 'trend': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+INFO:     64.62.197.77:58404 - "GET / HTTP/1.1" 404 Not Found
+INFO:     64.62.197.89:38499 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.80:48881 - "GET /?format=json HTTP/1.1" 404 Not Found
+INFO:     159.65.58.30:35682 - "GET / HTTP/1.1" 404 Not Found
+INFO:     159.65.58.30:35688 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+? order_routes.py LOADED
+[?] Skipping 'csp': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+INFO:     205.210.31.80:65258 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39850 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': build_order() missing 1 required positional argument: 'expiration'
+INFO:     127.0.0.1:52412 - "POST /api/orders/place_all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37938 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55372 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': build_order() missing 1 required positional argument: 'expiration'
+INFO:     127.0.0.1:56830 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34878 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': build_order() missing 1 required positional argument: 'expiration'
+INFO:     127.0.0.1:34880 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50048 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'csp': object dict can't be used in 'await' expression
+[ERROR] Failed to build order for bot 'wheel': build_order() missing 1 required positional argument: 'expiration'
+INFO:     127.0.0.1:50060 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'csp': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:48136 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': build_order() takes 2 positional arguments but 3 were given
+[ERROR] Failed to build order for bot 'kingcondor': build_order() takes 2 positional arguments but 3 were given
+[ERROR] Failed to build order for bot 'spread': build_order() takes 2 positional arguments but 3 were given
+[ERROR] Failed to build order for bot 'csp': build_order() takes 2 positional arguments but 3 were given
+[ERROR] Failed to build order for bot 'wheel': build_order() takes 2 positional arguments but 3 were given
+[ERROR] Failed to build order for bot 'trend': build_order() takes 2 positional arguments but 3 were given
+[ERROR] Failed to build order for bot 'replicator': build_order() takes 2 positional arguments but 3 were given
+INFO:     127.0.0.1:48146 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'csp': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:43580 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'kingcondor': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'spread': name 'get_quote' is not defined
+[ERROR] Failed to build order for bot 'csp': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'wheel': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'trend': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'replicator': 'str' object has no attribute 'symbol'
+INFO:     127.0.0.1:43584 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'csp': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:33400 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'kingcondor': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'spread': name 'get_quote' is not defined
+[ERROR] Failed to build order for bot 'csp': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'wheel': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'trend': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'replicator': 'str' object has no attribute 'symbol'
+INFO:     127.0.0.1:33406 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'csp': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:57018 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'kingcondor': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'spread': name 'get_quote' is not defined
+[ERROR] Failed to build order for bot 'csp': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'wheel': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'trend': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'replicator': 'str' object has no attribute 'symbol'
+INFO:     127.0.0.1:57026 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+? order_routes.py LOADED
+[?] Skipping 'csp': 'run' is not callable or missing
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:56040 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'kingcondor': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'spread': name 'get_quote' is not defined
+[ERROR] Failed to build order for bot 'csp': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'wheel': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'trend': 'str' object has no attribute 'symbol'
+[ERROR] Failed to build order for bot 'replicator': 'str' object has no attribute 'symbol'
+INFO:     127.0.0.1:56050 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+INFO:     20.65.194.104:46574 - "GET / HTTP/1.1" 404 Not Found
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:48724 - "POST /api/login HTTP/1.1" 200 OK
+[ERROR] Failed to build order for bot 'ironcondor': cannot import name 'get_expirations' from 'backend.services.order_builder' (/home/ubuntu/skystrike_fullstack_final_release/backend/services/order_builder.py)
+[ERROR] Failed to build order for bot 'kingcondor': cannot import name 'get_expirations' from 'backend.services.order_builder' (/home/ubuntu/skystrike_fullstack_final_release/backend/services/order_builder.py)
+[ERROR] Failed to build order for bot 'spread': cannot import name 'get_expirations' from 'backend.services.order_builder' (/home/ubuntu/skystrike_fullstack_final_release/backend/services/order_builder.py)
+[ERROR] Failed to build order for bot 'csp': cannot import name 'get_expirations' from 'backend.services.order_builder' (/home/ubuntu/skystrike_fullstack_final_release/backend/services/order_builder.py)
+[ERROR] Failed to build order for bot 'wheel': cannot import name 'get_expirations' from 'backend.services.order_builder' (/home/ubuntu/skystrike_fullstack_final_release/backend/services/order_builder.py)
+[ERROR] Failed to build order for bot 'trend': cannot import name 'get_expirations' from 'backend.services.order_builder' (/home/ubuntu/skystrike_fullstack_final_release/backend/services/order_builder.py)
+[ERROR] Failed to build order for bot 'replicator': cannot import name 'get_expirations' from 'backend.services.order_builder' (/home/ubuntu/skystrike_fullstack_final_release/backend/services/order_builder.py)
+INFO:     127.0.0.1:48728 - "POST /api/orders/place_all?dry_run=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49724 - "POST /api/login HTTP/1.1" 401 Unauthorized
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+INFO:     127.0.0.1:43796 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:43798 - "POST /api/orders/place HTTP/1.1" 401 Unauthorized
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+? order_routes.py LOADED
+? SkyStrike backend main.py has started.
+INFO:     199.45.154.144:40460 - "GET / HTTP/1.1" 400 Bad Request
+INFO:     199.45.154.144:53156 - "GET / HTTP/1.1" 400 Bad Request
+INFO:     199.45.154.144:39116 - "GET /favicon.ico HTTP/1.1" 400 Bad Request
+INFO:     199.45.154.144:39130 - "GET /login HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56462 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39934 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     45.131.155.253:36516 - "GET / HTTP/1.1" 400 Bad Request

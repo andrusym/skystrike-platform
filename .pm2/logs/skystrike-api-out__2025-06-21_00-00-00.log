@@ -1,0 +1,154 @@
+INFO:     127.0.0.1:53876 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/wealth/overview HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/ml/status HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/bots/status HTTP/1.1" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/trades HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     3.149.137.243:0 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58182 - "POST /api/login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58894 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50072 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+?? Received login attempt for: admin
+? User found, checking password...
+?? Password valid? False
+?? Exception during login: 401: Invalid credentials
+INFO:     127.0.0.1:39860 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+?? Received login attempt for: admin
+? User found, checking password...
+?? Password valid? True
+? Login successful for: admin
+INFO:     127.0.0.1:34728 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+?? Received login attempt for: admin
+? User found, checking password...
+?? Password valid? True
+? Login successful for: admin
+INFO:     127.0.0.1:43364 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /api/login/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51694 - "GET /api/login/me HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /trades HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /bots/status HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /wealth/overview HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /dashboard HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /trades HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "GET /dashboard HTTP/1.0" 404 Not Found
+?? Received login attempt for: admin
+? User found, checking password...
+?? Password valid? True
+? Login successful for: admin
+INFO:     127.0.0.1:35440 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "GET /login/me HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+?? Received login attempt for: admin
+? User found, checking password...
+?? Password valid? True
+? Login successful for: admin
+INFO:     127.0.0.1:46976 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     3.149.137.243:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     137.184.76.225:11976 - "GET / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57252 - "GET / HTTP/1.0" 404 Not Found
+INFO:     112.74.58.123:57424 - "GET /.git/HEAD HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57432 - "GET / HTTP/1.0" 404 Not Found
+INFO:     112.74.58.123:57420 - "OPTIONS / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57428 - "GET / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57438 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57434 - "GET /nmaplowercheck1750434327 HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57436 - "PROPFIND / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57460 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57462 - "POST / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57470 - "GET / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57494 - "GET /evox/about HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57510 - "GET / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57536 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     112.74.58.123:57548 - "HEAD / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57572 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57592 - "POST / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57598 - "PROPFIND / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57692 - "PROPFIND / HTTP/1.1" 404 Not Found
+INFO:     112.74.58.123:57748 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     112.74.58.123:57758 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     112.74.58.123:57774 - "OPTIONS / HTTP/1.1" 400 Bad Request
+INFO:     112.74.58.123:57856 - "OPTIONS / HTTP/1.1" 400 Bad Request
+INFO:     112.74.58.123:57874 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     112.74.58.123:57912 - "GET / HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+INFO:     74.215.103.58:0 - "POST /login HTTP/1.0" 404 Not Found
+?? Received login attempt for: admin
+? User found, checking password...
+?? Exception during login: Invalid salt
+INFO:     127.0.0.1:48576 - "POST /api/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:42294 - "POST /api/login HTTP/1.1" 500 Internal Server Error
