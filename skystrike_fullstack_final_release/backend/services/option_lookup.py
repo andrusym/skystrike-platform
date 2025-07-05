@@ -30,20 +30,25 @@ async def get_tradier_option_symbol(
             if o.get("option_type", "").lower() == callput.lower()
         })
 
+    # Try first expiration
     strikes = await fetch_strikes(expiration)
 
+    # Fallback if no strikes available
     if not strikes:
         expirations = await client.get_expirations(ticker)
+        if not expirations:
+            raise ValueError(f"No expirations available for {ticker}")
         dates = [datetime.strptime(d, "%Y-%m-%d").date() for d in expirations]
         req_date = datetime.strptime(expiration, "%Y-%m-%d").date()
         nearest_date = min(dates, key=lambda d: abs((d - req_date).days))
-        new_exp = nearest_date.strftime("%Y-%m-%d")
-        logger.warning(f"No {callput.upper()} options for {ticker} on {expiration}; falling back to {new_exp}")
-        expiration = new_exp
+        fallback_exp = nearest_date.strftime("%Y-%m-%d")
+        logger.warning(f"No {callput.upper()} options for {ticker} on {expiration}; falling back to {fallback_exp}")
+        expiration = fallback_exp
         strikes = await fetch_strikes(expiration)
         if not strikes:
-            raise ValueError(f"No {callput.upper()} options at all for {ticker} after fallback to {expiration}")
+            raise ValueError(f"No {callput.upper()} options for {ticker} even after fallback to {expiration}")
 
+    # Strike fallback
     if requested_strike not in strikes:
         nearest = get_nearest_strike(strikes, requested_strike)
         logger.warning(f"{ticker} {expiration} {callput.upper()} strike {requested_strike} not found - using nearest {nearest}")

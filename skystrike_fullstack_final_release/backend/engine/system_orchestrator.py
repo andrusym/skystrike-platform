@@ -1,21 +1,20 @@
-# backend/engine/system_orchestrator.py
+#!/usr/bin/env python3
+# coding: utf-8
 
-from engine.ml_engine import load_ml_scores
-from engine.self_tuning_engine import tune_strategies_daily
-from engine.goal_aware_shift_engine import shift_portfolio_by_goal
-from engine.final_recommendation_engine import generate_final_recommendation
+from backend.ml.ml_engine import run as run_ml
+from backend.engine.self_tuning_engine import tune_strategies_daily
+from backend.engine.goal_aware_shift_engine import apply_goal_allocation
+from backend.engine.final_recommendation_engine import generate_final_recommendation
 
 def full_daily_engine_run() -> dict:
-    print("?? Loading ML scores...")
-    load_ml_scores()
+    print("Loading ML results...")
+    ml_results = run_ml({})
 
-    print("??? Running strategy self-tuning...")
+    print("Running strategy self-tuning...")
     tune_strategies_daily()
 
-    print("?? Shifting portfolio by user goal...")
-    shift_portfolio_by_goal()
+    print("Applying goal-aware shift...")
+    apply_goal_allocation(ml_results)
 
-    print("?? Generating final recommendation...")
-    result = generate_final_recommendation()
-
-    return result
+    print("Generating final recommendation...")
+    return generate_final_recommendation()

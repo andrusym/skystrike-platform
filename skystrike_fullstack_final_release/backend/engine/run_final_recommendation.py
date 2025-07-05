@@ -1,6 +1,4 @@
-# backend/engine/run_final_recommendation.py
-
-from engine import generate_final_recommendation
+from backend.engine.final_recommendation_engine import generate_final_recommendation
 
 if __name__ == "__main__":
     print("? Running final portfolio recommendation...")

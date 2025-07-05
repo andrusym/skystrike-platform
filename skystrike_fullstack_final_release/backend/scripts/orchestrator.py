@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# coding: utf-8
+
 import os
 import pkgutil
 import importlib
@@ -6,6 +8,7 @@ import asyncio
 import logging
 import json
 import argparse
+import sys
 from datetime import datetime
 from backend.submit_order import run_bot_with_params
 
@@ -14,115 +17,144 @@ LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 logging.basicConfig(level=LOG_LEVEL, format="%(message)s")
 logger = logging.getLogger(__name__)
 
-# Directories for dynamic discovery
-ENGINE_PACKAGES = {
-    "filters": "backend.engines.filters",
-    "quote_stream": "backend.engines.quote_stream",
-    "ml": "backend.ml",
-    "goal": "backend.engines.goal",
-    "position": "backend.engines.position_tracker",
-}
+ENGINE_DIR = "backend.engine"
+ML_DIR     = "backend.ml"
+import_errors = []
 
-def discover_modules(package_name):
+def discover_modules(pkg_name):
     """
-    Dynamically import all modules in a given package.
+    Import pkg_name, then import every .py module directly under it.
+    Skip flat modules that aren't packages.
+    Record import failures to import_errors.
     """
-    pkg = importlib.import_module(package_name)
     modules = []
-    for _, module_name, is_pkg in pkgutil.iter_modules(pkg.__path__):
-        if not is_pkg:
-            full_name = f"{package_name}.{module_name}"
-            try:
-                module = importlib.import_module(full_name)
-                modules.append(module)
-            except Exception as e:
-                logger.error(f"Failed to import {full_name}: {e}")
+    try:
+        pkg = importlib.import_module(pkg_name)
+    except Exception as e:
+        import_errors.append((pkg_name, e))
+        return modules
+
+    path = getattr(pkg, "__path__", None)
+    if not path:
+        logger.warning(f"?? {pkg_name} is not a package — skipping")
+        return modules
+
+    for finder, name, is_pkg in pkgutil.iter_modules(path):
+        if is_pkg or name.startswith("_"):
+            continue
+        full = f"{pkg_name}.{name}"
+        try:
+            mod = importlib.import_module(full)
+            modules.append(mod)
+        except Exception as e:
+            import_errors.append((full, e))
     return modules
 
-async def run_pipeline(dry_run: bool = False):
-    # 1?? Market-event filter: skip non-trading days
-    for filt in discover_modules(ENGINE_PACKAGES["filters"]):
-        if hasattr(filt, "is_trading_day"):
-            ok = await filt.is_trading_day()
-            if not ok:
-                logger.info("Market filter: not a trading day. Exiting.")
-                return
+async def run_pipeline(dry_run=False):
+    # 1) Discover engine and ML modules
+    logger.info("Scanning engine modules...")
+    engines = discover_modules(ENGINE_DIR)
 
-    # 2?? Fetch quotes
+    logger.info("Scanning ML modules...")
+    mlmods = discover_modules(ML_DIR)
+
+    # 2) Fail fast on import errors
+    if import_errors:
+        logger.error("IMPORT ERRORS:")
+        for name, err in import_errors:
+            logger.error("  - %s: %s", name, err)
+        sys.exit(1)
+
+    # 3) Classify by capability
+    filters      = [m for m in engines if hasattr(m, "is_trading_day")]
+    quote_stream = [m for m in engines if hasattr(m, "fetch_quotes")]
+    goals        = [m for m in engines if hasattr(m, "apply")]
+    updaters     = [m for m in engines if hasattr(m, "update")]
+    ml_engines   = [m for m in mlmods if hasattr(m, "run")]
+
+    logger.info("Filters: %s", [m.__name__ for m in filters])
+    logger.info("Quote streams: %s", [m.__name__ for m in quote_stream])
+    logger.info("Goals: %s", [m.__name__ for m in goals])
+    logger.info("Updaters: %s", [m.__name__ for m in updaters])
+    logger.info("ML engines: %s", [m.__name__ for m in ml_engines])
+
+    # 4) Market-day filter
+    for mod in filters:
+        if not await mod.is_trading_day():
+            logger.info("Not a trading day. Exiting.")
+            return
+
+    # 5) Fetch quotes
     quotes = {}
-    for qmod in discover_modules(ENGINE_PACKAGES["quote_stream"]):
-        if hasattr(qmod, "fetch_quotes"):
-            try:
-                data = await qmod.fetch_quotes()
-                quotes.update(data)
-            except Exception as e:
-                logger.error(f"Quote stream error in {qmod.__name__}: {e}")
+    for mod in quote_stream:
+        try:
+            data = await mod.fetch_quotes()
+            quotes.update(data)
+        except Exception as e:
+            logger.error("Error in fetch_quotes(%s): %s", mod.__name__, e)
 
-    # 3?? Run ML engines for sizing and confidence
+    # 6) Run ML
     ml_results = {}
-    for mmod in discover_modules(ENGINE_PACKAGES["ml"]):
-        if hasattr(mmod, "run"):
-            try:
-                out = await mmod.run(quotes)
-                ml_results.update(out)
-            except Exception as e:
-                logger.error(f"ML engine error in {mmod.__name__}: {e}")
+    for mod in ml_engines:
+        try:
+            out = await mod.run(quotes)
+            ml_results.update(out)
+        except Exception as e:
+            logger.error("Error in ML run(%s): %s", mod.__name__, e)
 
-    # 4?? Apply goal-aware adjustments
-    for gmod in discover_modules(ENGINE_PACKAGES["goal"]):
-        if hasattr(gmod, "apply"):
-            try:
-                ml_results = await gmod.apply(ml_results)
-            except Exception as e:
-                logger.error(f"Goal engine error in {gmod.__name__}: {e}")
+    # 7) Apply goals
+    for mod in goals:
+        try:
+            ml_results = await mod.apply(ml_results)
+        except Exception as e:
+            logger.error("Error in apply(%s): %s", mod.__name__, e)
 
-    # 5?? Trigger bots based on ml_results
-    success_count = 0
-    failure_count = 0
+    # 8) Trigger bots
     total = len(ml_results)
-    for bot_name, params in ml_results.items():
-        logger.info(f"--- Bot: {bot_name} | Params: {params} ---")
+    logger.info("Will run %d bots: %s", total, list(ml_results.keys()))
+    success = failure = 0
+
+    for bot, params in ml_results.items():
+        logger.info("Bot=%s params=%s", bot, params)
         if dry_run:
-            logger.info(f"[DRY RUN] Would run {bot_name} with {params}")
+            logger.info("[DRY RUN] skip %s", bot)
             continue
         try:
-            result = await run_bot_with_params(**params)
-            errs = result.get("response", {}).get("errors")
-            if result.get("status") == "success" and not errs:
-                logger.info(f"? Success: {bot_name}")
-                success_count += 1
+            res = await run_bot_with_params(**params)
+            errs = res.get("response", {}).get("errors")
+            if res.get("status") == "success" and not errs:
+                logger.info("Success: %s", bot)
+                success += 1
             else:
-                logger.error(f"? Failure: {bot_name}, errors={errs or 'unknown'}")
-                failure_count += 1
+                logger.error("Failure: %s errors=%s", bot, errs or "unknown")
+                failure += 1
         except Exception as e:
-            logger.error(f"? Exception in {bot_name}: {e}")
-            failure_count += 1
-        logger.info("=" * 50)
+            logger.error("Exception in %s: %s", bot, e)
+            failure += 1
 
-    # 6?? Update positions
-    try:
-        pmod = importlib.import_module(ENGINE_PACKAGES["position"])
-        if hasattr(pmod, "update"):
-            await pmod.update(quotes, ml_results)
-    except Exception as e:
-        logger.error(f"Position tracker error: {e}")
+    # 9) Update positions
+    for mod in updaters:
+        try:
+            await mod.update(quotes, ml_results)
+        except Exception as e:
+            logger.error("Error in update(%s): %s", mod.__name__, e)
 
-    # 7?? Summary logging
+    # 10) Summary
     summary = {
         "timestamp": datetime.utcnow().isoformat(),
-        "successes": success_count,
-        "failures": failure_count,
-        "total": total,
-        "dry_run": dry_run,
+        "dry_run":   dry_run,
+        "total":     total,
+        "success":   success,
+        "failure":   failure,
     }
     os.makedirs("logs", exist_ok=True)
     with open("logs/orchestrator_results.json", "a") as f:
         f.write(json.dumps(summary) + "\n")
 
-    logger.info(f"?? Orchestration complete: {success_count}/{total} succeeded.")
+    logger.info("Done: %d/%d succeeded", success, total)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="SkyStrike orchestration pipeline")
-    parser.add_argument("--dry-run", action="store_true", help="Simulate actions without placing orders")
-    args = parser.parse_args()
+    p = argparse.ArgumentParser()
+    p.add_argument("--dry-run", action="store_true", help="simulate only")
+    args = p.parse_args()
     asyncio.run(run_pipeline(dry_run=args.dry_run))

@@ -1,3 +1,5 @@
+# backend/engine/__init__.py
+
 """
 SkyStrike Engine: Strategy Entry, Lifecycle Management, and ML Tuning
 """
@@ -10,7 +12,10 @@ from .explainability_engine       import get_explanation
 from .final_recommendation_engine import generate_final_recommendation
 from .goal_aware_shift_engine     import apply_goal_allocation
 from .market_event_filter         import should_skip_today
-from .ml_engine                   import load_ml_scores, evaluate_ml_status
+
+# ML entrypoint: now async and dynamic
+from backend.ml.ml_engine         import run as run_ml
+
 from .performance_engine          import compute_metrics
 from .position_tracker            import update_open_positions
 from .plugin_loader               import run_hook
@@ -35,8 +40,7 @@ __all__ = [
     "run_all_bots",
     "dispatch_bot_by_name",
     "generate_final_recommendation",
-    "load_ml_scores",
-    "evaluate_ml_status",
+    "run_ml",                      # the new dynamic ML entrypoint
     "tune_strategies_daily",
     "apply_goal_allocation",
     "load_strategy_config",

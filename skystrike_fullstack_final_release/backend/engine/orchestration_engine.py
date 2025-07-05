@@ -1,12 +1,15 @@
+#!/usr/bin/env python3
+# coding: utf-8
+
 import json
 import random
 from datetime import datetime
-from engine.plugin_loader import run_hook
+from backend.engine.plugin_loader import run_hook
 
-ML_SCORES_FILE = "data/ml_scores.json"
-TICKER_CONFIG_FILE = "config/ticker_config.json"
-CONTRACT_LIMITS_FILE = "config/contract_limits.json"
-BOT_CONFIG_FILE = "config/bot_config.json"
+ML_SCORES_FILE        = "data/ml_scores.json"
+TICKER_CONFIG_FILE    = "config/ticker_config.json"
+CONTRACT_LIMITS_FILE  = "config/contract_limits.json"
+BOT_CONFIG_FILE       = "config/bot_config.json"
 
 BOT_LIST = [
     "ironcondor", "kingcondor", "wheel", "spread", "csp", "dcabot",
@@ -18,33 +21,33 @@ BOT_LIST = [
 
 def load_json(path):
     try:
-        with open(path, "r") as f:
+        with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     except:
         return {}
 
 def orchestrate():
-    guardrail = run_hook("engine.drawdown_guardrails.check_equity_guardrail")
+    guardrail = run_hook("backend.engine.drawdown_guardrails.check_equity_guardrail")
     if guardrail.get("guardrail_triggered"):
-        print("❌ Equity guardrail triggered. No bots will run.")
+        print("Equity guardrail triggered. No bots will run.")
         return {"status": "blocked", "reason": "portfolio drawdown guardrail"}
 
-    ml_scores = load_json(ML_SCORES_FILE)
-    drawdowns = run_hook("engine.bot_drawdown_engine.check_bot_drawdowns")
-    adaptive = run_hook("engine.adaptive_sizing_engine.load_adaptive_contracts")
-    dte_info = run_hook("engine.dynamic_dte_selector.select_dte")
+    ml_scores     = load_json(ML_SCORES_FILE)
+    drawdowns     = run_hook("backend.engine.bot_drawdown_engine.check_bot_drawdowns")
+    adaptive      = run_hook("backend.engine.adaptive_sizing_engine.load_adaptive_contracts")
+    dte_info      = run_hook("backend.engine.dynamic_dte_selector.select_dte")
     ticker_config = load_json(TICKER_CONFIG_FILE)
     contract_limits = load_json(CONTRACT_LIMITS_FILE)
-    bot_config = load_json(BOT_CONFIG_FILE)
+    bot_config    = load_json(BOT_CONFIG_FILE)
 
     summary = {}
 
     for bot in BOT_LIST:
-        confidence = ml_scores.get(bot, {}).get("confidence", 0)
+        confidence    = ml_scores.get(bot, {}).get("confidence", 0)
         drawdown_flag = drawdowns.get(bot, {}).get("cooldown_triggered", False)
-        contracts = adaptive.get(bot, {}).get("contracts", 0)
-        tickers = ticker_config.get(bot, [])
-        override = bot_config.get(bot, {}).get("override", "none")
+        contracts     = adaptive.get(bot, {}).get("contracts", 0)
+        tickers       = ticker_config.get(bot, [])
+        override      = bot_config.get(bot, {}).get("override", "none")
 
         if not tickers:
             summary[bot] = {"skipped": True, "reason": "no tickers defined"}
@@ -56,10 +59,10 @@ def orchestrate():
         if override == "disabled":
             summary[bot] = {"skipped": True, "reason": "override: disabled"}
             continue
-        elif override == "cooldown":
+        if override == "cooldown":
             summary[bot] = {"skipped": True, "reason": "override: cooldown"}
             continue
-        elif override == "active":
+        if override == "active":
             drawdown_flag = False  # Force active
 
         if drawdown_flag or contracts == 0 or confidence < 0.5:
@@ -71,7 +74,7 @@ def orchestrate():
         try:
             result = run_hook(
                 "backend.services.submit_order.run_bot_with_params",
-                bot=bot, ticker=ticker, contracts=contracts, dte=dte_info["dte"]
+                bot=bot, ticker=ticker, contracts=contracts, dte=dte_info.get("dte")
             )
             summary[bot] = {
                 "skipped": False,
@@ -87,7 +90,7 @@ def orchestrate():
                 "error": str(e)
             }
 
-    with open("data/orchestration_log.json", "a") as log:
+    with open("data/orchestration_log.json", "a", encoding="utf-8") as log:
         log.write(json.dumps({
             "timestamp": datetime.utcnow().isoformat(),
             "summary": summary

@@ -7,9 +7,12 @@ Quote Stream Engine: supports real-time quote tracking for given tickers.
 import logging
 import time
 from typing import List, Callable
-from backend.services.tradier_api import get_quote
+from backend.services.tradier_client import TradierClient
 
 logger = logging.getLogger(__name__)
+
+# Instantiate a single TradierClient for all calls
+client = TradierClient()
 
 def start_streaming_quotes(
     tickers: List[str],
@@ -25,7 +28,8 @@ def start_streaming_quotes(
     while True:
         for ticker in tickers:
             try:
-                quote = get_quote(ticker)
+                # Use the TradierClient to fetch the latest quote
+                quote = client.get_quote(ticker)
                 price = quote.get("last", quote.get("last_quote", quote.get("last_price", 0.0)))
                 logger.debug(f"Quote for {ticker}: {price}")
                 on_quote(ticker, price)
