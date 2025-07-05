@@ -1,6 +1,12 @@
 {
   "ironcondor": { "win_rate": 0.72, "total_pnl": 4200 },
   "kingcondor": { "win_rate": 0.61, "total_pnl": 900 },
+  "spread": { "win_rate": 0.66, "total_pnl": 1500 },
+  "replicator": { "win_rate": 0.58, "total_pnl": 320 },
   "gridbot": { "win_rate": 0.53, "total_pnl": 250 },
-  "momentumbot": { "win_rate": 0.45, "total_pnl": -300 }
+  "dcabot": { "win_rate": 0.50, "total_pnl": 0 },
+  "scalper": { "win_rate": 0.49, "total_pnl": -100 },
+  "pairstrader": { "win_rate": 0.44, "total_pnl": -200 },
+  "momentumbot": { "win_rate": 0.45, "total_pnl": -300 },
+  "copybot": { "win_rate": 0.41, "total_pnl": -450 }
 }

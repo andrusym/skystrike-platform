@@ -1,121 +1,78 @@
 import os
+import json
 import logging
-from typing import List, Dict, Any, Optional
-import requests
+import httpx
 from datetime import datetime
+from typing import Optional, List, Dict, Any
+from dotenv import load_dotenv
 
-logger = logging.getLogger(__name__)
+# Load .env from project root
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "../../.env"))
 
 SANDBOX_BASE = "https://sandbox.tradier.com/v1"
-LIVE_BASE = "https://api.tradier.com/v1"
+LIVE_BASE    = "https://api.tradier.com/v1"
+
+# module-level logger
+logger = logging.getLogger(__name__)
 
 class TradierClient:
-    def __init__(
-        self,
-        token: Optional[str] = None,
-        account_id: Optional[str] = None,
-        sandbox: bool = True
-    ):
-        self.token = token or (
+    def __init__(self, mode: str = "paper"):
+        self.base = SANDBOX_BASE if mode == "paper" else LIVE_BASE
+        self.token = (
             os.getenv("TRADIER_PAPER_ACCESS_TOKEN")
-            if sandbox
+            if mode == "paper"
             else os.getenv("TRADIER_LIVE_ACCESS_TOKEN")
         )
-        if not self.token:
-            raise ValueError(
-                "Must set TRADIER_PAPER_ACCESS_TOKEN or TRADIER_LIVE_ACCESS_TOKEN"
-            )
-
-        self.account_id = account_id or (
+        self.account_id = (
             os.getenv("TRADIER_PAPER_ACCOUNT_ID")
-            if sandbox
+            if mode == "paper"
             else os.getenv("TRADIER_LIVE_ACCOUNT_ID")
         )
-        if not self.account_id:
-            raise ValueError(
-                "Must set TRADIER_PAPER_ACCOUNT_ID or TRADIER_LIVE_ACCOUNT_ID"
-            )
+        if not self.token or not self.account_id:
+            raise ValueError("Missing Tradier token or account ID")
 
-        self.base = SANDBOX_BASE if sandbox else LIVE_BASE
-        self.session = requests.Session()
-        self.session.headers.update({
+        self.headers = {
             "Authorization": f"Bearer {self.token}",
-            "Accept": "application/json",
-        })
+            "Accept":        "application/json",
+            "Content-Type":  "application/x-www-form-urlencoded",
+        }
 
-    def _get(self, path: str, params: dict = None) -> dict:
+    async def _get(self, path: str, params: dict = None) -> dict:
         url = f"{self.base}{path}"
-        r = self.session.get(url, params=params or {})
-        r.raise_for_status()
-        return r.json()
+        async with httpx.AsyncClient() as client:
+            r = await client.get(url, headers=self.headers, params=params or {})
+            r.raise_for_status()
+            return r.json()
 
-    def _post(self, path: str, data: dict) -> dict:
-        url = f"{self.base}{path}"
-        print(f"[POST] URL: {url}")
-        print(f"[POST] DATA: {data}")
-        r = self.session.post(
-            url,
-            data=data,
-            headers={"Content-Type": "application/x-www-form-urlencoded"}
-        )
-        print(f"[POST] STATUS: {r.status_code}")
-        try:
-            print(f"[POST] RESPONSE: {r.json()}")
-        except Exception:
-            print(f"[POST] TEXT RESPONSE: {r.text}")
-        r.raise_for_status()
-        return r.json()
+    async def _post(self, path: str, data: dict) -> dict:
+        # only emit payload when debug is enabled
+        if logger.isEnabledFor(logging.DEBUG):
+            logger.debug("Payload Debug:\n%s", json.dumps(data, indent=2))
 
-    def _send_order(self, payload: dict) -> dict:
-        url = f"{self.base}/accounts/{self.account_id}/orders"
-        print(f"[POST] URL: {url}")
-        print(f"[POST] PAYLOAD: {payload}")
-        r = self.session.post(
-            url,
-            data=payload,
-            headers={"Content-Type": "application/x-www-form-urlencoded"}
-        )
-        print(f"[POST] STATUS: {r.status_code}")
-        try:
-            print(f"[POST] RESPONSE: {r.json()}")
-        except Exception:
-            print(f"[POST] TEXT RESPONSE: {r.text}")
-        r.raise_for_status()
-        return r.json()
+        url = f"{self.base}{path.format(account_id=self.account_id)}"
+        async with httpx.AsyncClient() as client:
+            r = await client.post(url, headers=self.headers, data=data)
+            r.raise_for_status()
+            return r.json()
 
-    def get_expirations(self, symbol: str) -> List[str]:
-        data = self._get("/markets/options/expirations", {"symbol": symbol})
+    async def get_expirations(self, symbol: str) -> List[str]:
+        data = await self._get("/markets/options/expirations", {"symbol": symbol})
         return data.get("expirations", {}).get("date", [])
 
-    def get_option_chain(self, symbol: str, expiration: str) -> Dict[str, Any]:
-        data = self._get(
+    async def get_option_chain(self, symbol: str, expiration: str) -> Dict[str, Any]:
+        data = await self._get(
             "/markets/options/chains",
-            {"symbol": symbol, "expiration": expiration}
+            {"symbol": symbol, "expiration": expiration},
         )
         opts = data.get("options", {})
-        if isinstance(opts, dict) and "option" in opts:
-            options = opts["option"]
-        elif isinstance(opts, list):
-            options = opts
-        else:
-            options = []
-        return {"options": options}
+        return {"options": opts.get("option", [])} if isinstance(opts, dict) else {"options": []}
 
-    def get_quote(self, symbol: str) -> Dict[str, Any]:
-        data = self._get("/markets/quotes", {"symbols": symbol})
-        quotes = data.get("quotes", {}).get("quote", [])
-        if isinstance(quotes, list):
-            return quotes[0]
-        return quotes
+    async def get_quote(self, symbol: str) -> Dict[str, Any]:
+        data = await self._get("/markets/quotes", {"symbols": symbol})
+        qs = data.get("quotes", {}).get("quote", [])
+        return qs[0] if isinstance(qs, list) else qs
 
-    def format_option(
-        self, ticker: str, expiration: str, right: str, strike: float
-    ) -> str:
-        """
-        Build an OCC-compliant option symbol:
-        TICKER + YYMMDD + P/C + zero-padded (strike * 1000).
-        Supports expiration in "YYYY-MM-DD" or "YYYYMMDD" form.
-        """
+    def format_option(self, ticker: str, expiration: str, right: str, strike: float) -> str:
         try:
             exp_date = datetime.strptime(expiration, "%Y-%m-%d")
         except ValueError:
@@ -124,26 +81,30 @@ class TradierClient:
         strike_fmt = f"{int(strike * 1000):08d}"
         return f"{ticker.upper()}{date_fmt}{right.upper()}{strike_fmt}"
 
-    def submit_multileg(
+    async def submit_multileg(
         self,
         symbol: str,
         legs: List[Dict[str, Any]],
-        price: float = 1.0
+        price: Optional[float] = None,
+        order_type: str = "credit"  # one of: market, debit, credit, even
     ) -> dict:
-        payload = {
-            "class": "multileg",
-            "type": "limit",
-            "symbol": symbol,
+        payload: Dict[str, str] = {
+            "class":    "multileg",
+            "type":     order_type,
+            "symbol":   symbol,
             "duration": "day",
-            "price": str(price),
         }
+        if order_type in ("debit", "credit", "even") and price is not None:
+            payload["price"] = f"{price:.2f}"
+
         for i, leg in enumerate(legs):
             payload[f"option_symbol[{i}]"] = leg["option_symbol"]
-            payload[f"side[{i}]"] = leg["side"]
-            payload[f"quantity[{i}]"] = str(leg["quantity"])
-        return self._send_order(payload)
+            payload[f"side[{i}]"]          = leg["side"]
+            payload[f"quantity[{i}]"]      = str(leg["quantity"])
 
-    def submit_equity(
+        return await self._post("/accounts/{account_id}/orders", payload)
+
+    async def submit_equity(
         self,
         symbol: str,
         side: str,
@@ -151,13 +112,33 @@ class TradierClient:
         price: Optional[float] = None
     ) -> dict:
         payload = {
-            "class": "equity",
-            "symbol": symbol,
-            "side": side,
+            "class":    "equity",
+            "symbol":   symbol,
+            "side":     side,
             "quantity": str(qty),
             "duration": "day",
-            "type": "limit" if price else "market",
+            "type":     "limit" if price is not None else "market",
         }
         if price is not None:
-            payload["price"] = str(price)
-        return self._send_order(payload)
+            payload["price"] = f"{price:.2f}"
+        return await self._post("/accounts/{account_id}/orders", payload)
+
+    async def submit_option_order(
+        self,
+        option_symbol: str,
+        side: str,
+        quantity: int,
+        price: Optional[float] = None
+    ) -> dict:
+        payload = {
+            "class":         "option",
+            "symbol":        option_symbol[:-15],
+            "option_symbol": option_symbol,
+            "side":          side,
+            "quantity":      str(quantity),
+            "duration":      "day",
+            "type":          "limit" if price is not None else "market",
+        }
+        if price is not None:
+            payload["price"] = f"{price:.2f}"
+        return await self._post("/accounts/{account_id}/orders", payload)

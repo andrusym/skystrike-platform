@@ -1,0 +1,8229 @@
+[
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T12:13:15.830802"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:16:51.275281"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:16:55.662772"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:16:58.392423"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:01.199567"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:05.662755"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:09.898552"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:13.904820"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:18.138592"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:19.021370"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:20.059942"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:24.463352"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:25.420026"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:26.620224"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:27.677580"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:28.781429"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:29.677721"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:30.859793"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:35.423003"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:17:39.990740"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T12:17:40.490738"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:19:11.342862"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:19:15.033174"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:20:59.102985"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:03.521646"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:06.312801"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:09.430620"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:14.142970"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:18.538415"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:23.183272"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:27.340554"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:28.380552"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:29.497493"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:33.983009"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:34.858277"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:35.984071"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:36.940150"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:37.900870"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:39.020242"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:40.139863"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:44.308086"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:21:48.554223"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T12:21:49.040603"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:23:32.458731"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:23:36.781616"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:23:39.432103"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:23:42.072627"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:23:46.328681"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:23:50.382541"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:23:54.723093"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:23:58.938257"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:00.131228"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:01.181231"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:05.745643"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:06.790739"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:07.839340"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:08.797995"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:09.900183"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:10.812318"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:12.060870"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:16.382602"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T12:24:20.711850"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T12:24:21.260985"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:11.899246"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:16.302792"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:19.103326"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:22.301293"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:26.941246"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:31.499370"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:35.659798"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:39.913855"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:41.180916"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:42.228183"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:46.783917"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:47.978181"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:49.048762"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:50.064854"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:51.020408"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:52.218801"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:53.260345"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:11:57.743599"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:12:02.160783"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T15:12:02.780059"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:05.263752"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:09.435525"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:12.140820"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:15.183888"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:19.689859"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:24.089157"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:28.460711"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:33.019276"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:34.057976"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:34.949153"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:39.105844"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:40.066588"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:41.179716"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:42.228702"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:43.086869"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:43.988039"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:45.034867"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:49.746930"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:15:53.665525"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T15:15:54.303932"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:19:43.981048"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:19:48.381320"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:19:51.100872"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:19:54.219968"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:19:58.624171"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:20:03.374434"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:22:48.224910"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:22:52.541206"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:22:55.344945"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:22:58.068317"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:02.574465"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:06.876270"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:11.260594"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:15.589322"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:16.716341"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:17.980493"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:22.552322"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:23.497606"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:24.563562"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:25.740619"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:26.780740"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:27.596892"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:28.718192"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:33.029261"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:23:37.429391"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T15:23:37.978244"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:28:29.990754"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:28:34.298876"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:28:36.795746"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:28:39.512943"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:30:06.467695"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:30:11.428149"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:30:14.218959"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:30:16.778062"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:30:21.348079"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:30:25.425871"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:35:36.223663"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:35:40.941166"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:35:43.666703"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:35:46.228822"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:35:50.470319"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:35:54.712586"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:35:58.868804"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:03.420142"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:04.621040"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:05.674056"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:09.899523"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:10.962597"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:12.065284"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:13.054833"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:14.223931"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:15.184833"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:16.323101"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:20.945565"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:36:25.590450"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T15:36:26.124229"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:49:42.624058"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:49:47.113218"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:49:49.666453"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:49:52.231129"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:49:56.625501"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:00.574788"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:05.352623"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:09.830512"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:10.956573"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:11.986346"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:16.226038"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:17.264941"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:18.464816"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:19.521617"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:20.779909"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:21.905467"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:23.122216"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:27.510794"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:50:31.834058"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T15:50:32.460646"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:53:48.867236"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:53:53.346584"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:53:56.147028"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:53:58.950667"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:03.116869"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:07.827149"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:12.226957"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:16.464035"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:17.582887"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:18.864612"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:23.182989"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:24.140115"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:25.262863"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:26.240652"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:27.265073"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:28.306112"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:29.283166"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:33.739618"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T15:54:37.902221"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T15:54:38.461826"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00620000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00630000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:13.993391"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:21.828165"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:25.987057"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:28.714834"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:31.673575"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:36.000091"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:40.227538"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:44.800521"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:49.025672"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:50.147645"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:51.266238"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:55.427916"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:56.673360"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:57.666245"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:58.800637"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:02:59.985846"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:03:01.257766"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:03:02.457300"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:03:06.869846"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:03:11.434871"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T16:03:11.907213"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00620000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00630000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:08:52.778435"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:00.543682"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:05.029920"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:07.820070"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:10.467247"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:14.710535"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:19.112747"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:23.497873"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:27.351086"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:28.385096"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:29.423325"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:33.830849"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:34.944848"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:36.002556"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:37.106025"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:38.146089"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:39.363991"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:40.465514"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:44.862258"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:09:48.871246"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T16:09:49.503626"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00620000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00630000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:15:30.859909"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:15:38.787364"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:15:43.189912"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:15:45.977961"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:15:48.715359"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:15:53.025703"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:15:57.112759"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:01.433960"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:05.911393"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:06.866157"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:07.986991"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:12.233650"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:13.426364"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:14.581855"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:15.505598"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:16.562534"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:17.668581"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:18.704895"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:23.188269"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:16:27.751277"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T16:16:28.384492"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00620000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00630000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:20:51.033780"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:20:58.701818"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:03.284279"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:05.898067"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:08.549292"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:12.868814"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:17.025280"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:21.421596"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:25.666362"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:26.705642"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:27.737860"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:32.225859"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:33.421747"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:34.640982"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:35.745775"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:36.865368"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:38.162605"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:39.422608"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:43.751180"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:21:47.986749"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T16:21:48.629265"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00620000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00630000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:04.146768"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:12.232237"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:16.550873"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:19.350108"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:22.246049"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:26.630463"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:31.189983"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:35.506693"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:39.907566"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:41.040523"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:42.303354"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:46.787443"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:47.985736"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:49.105804"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:50.145960"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:51.204427"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:52.304509"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:53.427217"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:27:57.831048"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:28:02.558405"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T16:28:03.342589"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00620000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00630000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:30:31.363930"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:30:39.044386"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:30:43.508108"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:30:46.299941"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:30:49.113539"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:30:53.590977"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:30:57.825903"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:02.461283"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:06.870392"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:08.066275"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:09.102902"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:13.503500"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:14.399902"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:15.425256"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:16.466098"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:17.512075"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:18.462865"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:19.425769"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:23.350956"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:31:27.906170"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T16:31:28.467682"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00620000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00630000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:20.146646"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:28.152852"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:32.537685"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:35.258137"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:37.820291"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:42.139914"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:46.791182"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:51.191338"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:55.582021"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:56.701063"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:44:57.844668"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:02.472742"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:03.532260"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:04.705879"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:05.825207"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:07.025743"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:08.066001"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:09.025340"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:13.187843"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:45:17.742443"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T16:45:18.224046"
+  },
+  {
+    "bot": "ironcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00620000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00630000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:55:59.028261"
+  },
+  {
+    "bot": "kingcondor",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00615000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00605000",
+          "side": "buy",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00635000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707C00645000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:07.345637"
+  },
+  {
+    "bot": "spread",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00588000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00583000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:11.591163"
+  },
+  {
+    "bot": "csp",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00625000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:14.468825"
+  },
+  {
+    "bot": "wheel",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "option_symbol": "SPY250707P00565000",
+      "side": "sell",
+      "quantity": 1,
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:17.343593"
+  },
+  {
+    "bot": "trend",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:21.662819"
+  },
+  {
+    "bot": "replicator",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:25.976019"
+  },
+  {
+    "bot": "scalper",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00598000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:30.226927"
+  },
+  {
+    "bot": "momentumbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00606000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00601000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:34.551504"
+  },
+  {
+    "bot": "straddlebot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:35.746211"
+  },
+  {
+    "bot": "squeezehunter",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:36.865459"
+  },
+  {
+    "bot": "copybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00581000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00576000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:41.420990"
+  },
+  {
+    "bot": "calendarbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250712C00625000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706C00625000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:42.544472"
+  },
+  {
+    "bot": "breakoutbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:43.739258"
+  },
+  {
+    "bot": "earningsbot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:44.864587"
+  },
+  {
+    "bot": "volharvest",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:45.908129"
+  },
+  {
+    "bot": "gammafly",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:46.942405"
+  },
+  {
+    "bot": "ratioflybot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250706P00594000",
+          "side": "sell_to_open",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250706P00589000",
+          "side": "buy_to_open",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:47.905892"
+  },
+  {
+    "bot": "dcabot",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00575000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00570000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:52.146052"
+  },
+  {
+    "bot": "pairstrader",
+    "ticker": "SPY",
+    "contracts": 1,
+    "dte": 1,
+    "mode": "paper",
+    "order": {
+      "legs": [
+        {
+          "option_symbol": "SPY250707P00600000",
+          "side": "sell",
+          "quantity": 1
+        },
+        {
+          "option_symbol": "SPY250707P00595000",
+          "side": "buy",
+          "quantity": 1
+        }
+      ],
+      "price": 1.0
+    },
+    "timestamp": "2025-07-05T16:56:56.619154"
+  },
+  {
+    "bot": "equity_buy",
+    "ticker": "QQQ",
+    "contracts": 1,
+    "dte": 0,
+    "mode": "paper",
+    "order": {
+      "class": "equity",
+      "symbol": "QQQ",
+      "side": "buy",
+      "quantity": 1,
+      "price": null
+    },
+    "timestamp": "2025-07-05T16:56:57.181661"
+  }
+]

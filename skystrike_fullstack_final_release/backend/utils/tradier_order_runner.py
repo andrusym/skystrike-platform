@@ -10,12 +10,6 @@ from typing import List, Dict, Any
 env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
 load_dotenv(dotenv_path=env_path, override=True)
 
-TRADIER_MODE       = os.getenv("TRADIER_MODE", "paper").lower()
-TRADIER_BASE_URL   = (
-    "https://sandbox.tradier.com/v1"
-    if TRADIER_MODE == "paper"
-    else "https://api.tradier.com/v1"
-)
 TRADIER_TOKEN      = os.getenv(f"TRADIER_{TRADIER_MODE.upper()}_ACCESS_TOKEN")
 TRADIER_ACCOUNT_ID = os.getenv(f"TRADIER_{TRADIER_MODE.upper()}_ACCOUNT_ID")
 

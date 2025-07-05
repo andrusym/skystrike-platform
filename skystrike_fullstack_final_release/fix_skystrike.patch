@@ -1,0 +1,45 @@
+*** Begin Patch
+*** Update File: backend/utils/auth.py
+@@ def verify_token(x_token: str = Header(...)):
+-    \"\"\"Verify that x_token is valid and raise HTTPException if not
+-    \"\"\"  # ← stray backslash before the quotes
++    """
++    Verify that x_token is valid and raise HTTPException if not
++    """
+
+*** End Patch Part 1
+
+*** Begin Patch
+*** Update File: backend/services/tradier_client.py
+@@ def get_expirations(self, ticker: str) -> list[str]:
+-        data = self._request("/v1/markets/options/expirations", {"symbol": ticker})
+-        return data.get("expirations", {}).get("date", [])
++        data = self._request("/v1/markets/options/expirations", {"symbol": ticker})
++        if not data or "expirations" not in data:
++            return []
++        return data["expirations"].get("date", [])
+
+@@ def get_quote(self, ticker: str) -> dict:
+-        quotes = self._request("/v1/markets/quotes", {"symbols": ticker}).get("quotes", {}).get("quote", [])
+-        return quotes[0]
++        resp = self._request("/v1/markets/quotes", {"symbols": ticker})
++        quotes = resp.get("quotes", {}).get("quote", [])
++        if not quotes:
++            raise RuntimeError("No quote returned for \(ticker\)")
++        if isinstance(quotes, dict):
++            return quotes
++        return quotes[0]
+
+*** End Patch Part 2
+
+*** Begin Patch
+*** Update File: backend/submit_order.py
+@@
+-    # from iron_condor is missing!
++    from backend.bots.iron_condor import build_order as ironcondor_build
+
+@@ BUILD_MAP = {
+-    # no ironcondor key
++    "ironcondor": ironcondor_build,
+*** End Patch Part 3
+*** End Patch

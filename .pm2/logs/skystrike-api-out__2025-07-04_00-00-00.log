@@ -1,0 +1,7 @@
+INFO:     127.0.0.1:57690 - "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 400 Bad Request
+INFO:     146.190.28.133:60626 - "GET / HTTP/1.1" 400 Bad Request
+INFO:     146.190.28.133:60632 - "GET /favicon.ico HTTP/1.1" 400 Bad Request
+INFO:     3.131.215.38:34618 - "GET / HTTP/1.1" 400 Bad Request
+INFO:     3.131.215.38:39980 - "GET / HTTP/1.1" 400 Bad Request
+INFO:     147.185.132.64:63872 - "GET / HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:46534 - "POST /api/login HTTP/1.1" 200 OK

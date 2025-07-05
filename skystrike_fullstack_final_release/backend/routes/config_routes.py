@@ -1,9 +1,12 @@
+# backend/routes/config_routes.py
+
 from typing import List, Optional
 from fastapi import APIRouter, Depends, HTTPException, Body
 from sqlalchemy.orm import Session
-from backend.db.session import SessionLocal
-from backend.db.models import BotConfig
-from backend.dependencies.auth import get_current_user
+
+from ..db.session import SessionLocal
+from ..db.models import BotConfig
+from ..auth import get_current_user, User
 from .schemas import BotConfigSchema
 
 router = APIRouter(prefix="/api/config", tags=["config"])

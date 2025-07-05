@@ -1,78 +1,66 @@
-import json
-import logging
+# backend/services/order_submission.py
+
 import os
-from typing import Dict
+import time
+import requests
+from typing import Dict, Any
+from backend.config import settings
 
-from backend.bots.runner import build_order
-from backend.services.tradier_client import TradierClient
+TRADIER_BASE = (
+    "https://api.tradier.com/v1" if settings.TRADE_MODE == "live"
+    else "https://sandbox.tradier.com/v1"
+)
 
-# Paths (adjust as necessary)
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-BOT_CONFIG_PATH = os.path.join(BASE_DIR, 'config', 'bot_config.json')
-TRADE_LOG_PATH = os.path.join(BASE_DIR, 'logs', 'trade_log.json')
+HEADERS = {
+    "Authorization": f"Bearer {settings.TRADIER_API_KEY}",
+    "Accept": "application/json",
+    "Content-Type": "application/x-www-form-urlencoded",
+}
 
-client = TradierClient()
 
-def _load_bot_config():
-    with open(BOT_CONFIG_PATH) as f:
-        raw = json.load(f)
-    # Handle dict or list
-    if isinstance(raw, dict):
-        entries = []
-        for bot_name, entry in raw.items():
-            if not isinstance(entry, dict):
-                continue
-            entry_copy = entry.copy()
-            entry_copy['bot'] = bot_name
-            entries.append(entry_copy)
-        return entries
-    elif isinstance(raw, list):
-        return raw
-    else:
-        raise ValueError("bot_config.json must be a dict or list")
+def submit_multileg_order(order_payload: Dict[str, Any]) -> Dict[str, Any]:
+    """Submit a multi-leg options order to Tradier."""
+    url = f"{TRADIER_BASE}/accounts/{settings.TRADIER_ACCOUNT_ID}/orders"
+    response = requests.post(url, data=order_payload, headers=HEADERS)
+    try:
+        data = response.json()
+    except Exception:
+        data = {"error": "non-JSON response", "status_code": response.status_code}
 
-def _append_trade_log(entry: Dict):
-    os.makedirs(os.path.dirname(TRADE_LOG_PATH), exist_ok=True)
-    if os.path.exists(TRADE_LOG_PATH):
-        with open(TRADE_LOG_PATH) as f:
-            logs = json.load(f)
-    else:
-        logs = []
-    logs.append(entry)
-    with open(TRADE_LOG_PATH, 'w') as f:
-        json.dump(logs, f, indent=2)
+    return {
+        "status_code": response.status_code,
+        "response": data,
+        "submitted_payload": order_payload,
+    }
 
-def run():
-    logging.info("Loading bot configuration...")
-    config_entries = _load_bot_config()
-    for bot_entry in config_entries:
-        bot_name = bot_entry.get('bot')
-        ticker = bot_entry.get('ticker')
-        contracts = bot_entry.get('contracts', 0)
-        dte = bot_entry.get('dte', 0)
-        active = bot_entry.get('active', False)
 
-        if not active or contracts <= 0:
-            logging.debug(f"Skipping {bot_name} (active={active}, contracts={contracts})")
-            continue
+def submit_option_order(order_payload: Dict[str, Any]) -> Dict[str, Any]:
+    """Submit a single-leg options order (basic wrapper around Tradier API)."""
+    url = f"{TRADIER_BASE}/accounts/{settings.TRADIER_ACCOUNT_ID}/orders"
+    response = requests.post(url, data=order_payload, headers=HEADERS)
+    try:
+        data = response.json()
+    except Exception:
+        data = {"error": "non-JSON response", "status_code": response.status_code}
 
-        logging.info(f"Building order for {bot_name}: {ticker}, contracts={contracts}, dte={dte}")
-        try:
-            order_spec = build_order(bot_name, ticker, contracts, dte)
-            logging.info(f"Submitting order for {bot_name}: {order_spec}")
-            result = client.submit_order(order_spec)
-            _append_trade_log({
-                'bot': bot_name,
-                'ticker': ticker,
-                'contracts': contracts,
-                'dte': dte,
-                'order_spec': order_spec,
-                'result': result
-            })
-        except Exception as e:
-            logging.error(f"Error submitting order for {bot_name}: {e}")
-            _append_trade_log({
-                'bot': bot_name,
-                'ticker': ticker,
-                'error': str(e)
-            })
+    return {
+        "status_code": response.status_code,
+        "response": data,
+        "submitted_payload": order_payload,
+    }
+
+
+def submit_equity_order(order_payload: Dict[str, Any]) -> Dict[str, Any]:
+    """Submit an equity order (used by CSP, Wheel, or ETF logic)."""
+    url = f"{TRADIER_BASE}/accounts/{settings.TRADIER_ACCOUNT_ID}/orders"
+    response = requests.post(url, data=order_payload, headers=HEADERS)
+    try:
+        data = response.json()
+    except Exception:
+        data = {"error": "non-JSON response", "status_code": response.status_code}
+
+    return {
+        "status_code": response.status_code,
+        "response": data,
+        "submitted_payload": order_payload,
+    }

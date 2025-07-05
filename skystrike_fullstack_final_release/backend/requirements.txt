@@ -5,3 +5,7 @@ httpx
 numpy
 python-dotenv
 passlib
+uvicorn
+flask
+pandas
+requests

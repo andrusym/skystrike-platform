@@ -5,12 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TRADIER_MODE = os.getenv("TRADIER_MODE", "paper").lower()
-TRADIER_BASE_URL = (
-    "https://sandbox.tradier.com/v1"
-    if TRADIER_MODE == "paper"
-    else "https://api.tradier.com/v1"
-)
 TRADIER_TOKEN = (
     os.getenv(f"TRADIER_{TRADIER_MODE.upper()}_ACCESS_TOKEN")
     or os.getenv("TRADIER_API_KEY")

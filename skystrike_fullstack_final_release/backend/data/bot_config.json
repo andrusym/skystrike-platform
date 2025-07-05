@@ -1,41 +1,62 @@
 {
   "ironcondor": {
-    "SPY": 2,
-    "QQQ": 1
+    "contracts": 6,
+    "active": true,
+    "confidence": 0.876,
+    "timestamp": "2025-06-30T01:26:19.240606"
   },
   "kingcondor": {
-    "NDX": 1
+    "contracts": 6,
+    "active": true,
+    "confidence": 0.788,
+    "timestamp": "2025-06-30T01:26:19.240630"
   },
   "spread": {
-    "SPY": 1
+    "contracts": 6,
+    "active": true,
+    "confidence": 0.828,
+    "timestamp": "2025-06-30T01:26:19.240632"
   },
   "replicator": {
-    "SPY": 1
-  },
-  "wheel": {
-    "AAPL": 1,
-    "MSFT": 1
-  },
-  "trend": {
-    "NDX": 1,
-    "SPX": 1
+    "contracts": 6,
+    "active": true,
+    "confidence": 0.764,
+    "timestamp": "2025-06-30T01:26:19.240634"
   },
   "gridbot": {
-    "BTC": 0
+    "contracts": 2,
+    "active": true,
+    "confidence": 0.724,
+    "timestamp": "2025-06-30T01:26:19.240636"
   },
   "dcabot": {
-    "SPY": 0
+    "contracts": 0,
+    "active": false,
+    "confidence": 0.5,
+    "timestamp": "2025-06-30T01:26:19.240638"
   },
   "scalper": {
-    "QQQ": 0
+    "contracts": 0,
+    "active": false,
+    "confidence": 0.392,
+    "timestamp": "2025-06-30T01:26:19.240641"
   },
   "pairstrader": {
-    "SPY-QQQ": 0
+    "contracts": 0,
+    "active": false,
+    "confidence": 0.252,
+    "timestamp": "2025-06-30T01:26:19.240643"
   },
   "momentumbot": {
-    "SPY": 0
+    "contracts": 0,
+    "active": false,
+    "confidence": 0.16,
+    "timestamp": "2025-06-30T01:26:19.240645"
   },
   "copybot": {
-    "SPY": 0
+    "contracts": 0,
+    "active": false,
+    "confidence": 0.1,
+    "timestamp": "2025-06-30T01:26:19.240646"
   }
 }

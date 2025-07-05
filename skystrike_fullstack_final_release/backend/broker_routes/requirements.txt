@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-flask
-pandas
-numpy
-requests

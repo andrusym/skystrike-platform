@@ -1,0 +1,74 @@
+{
+  "ironcondor:SPY": {
+    "confidence": 0.88,
+    "contracts": 6,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "High ML score and aligned with growth goal",
+    "copilot_enabled": true
+  },
+  "ironcondor:QQQ": {
+    "confidence": 0.72,
+    "contracts": 2,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "Moderate confidence; limited contract allocation",
+    "copilot_enabled": true
+  },
+  "kingcondor:SPX": {
+    "confidence": 0.79,
+    "contracts": 6,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "High ML score and aligned with growth goal",
+    "copilot_enabled": true
+  },
+  "gridbot:AAPL": {
+    "confidence": 0.65,
+    "contracts": 2,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "Moderate confidence; limited contract allocation",
+    "copilot_enabled": true
+  },
+  "dcabot:VTI": {
+    "confidence": 0.52,
+    "contracts": 2,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "Moderate confidence; limited contract allocation",
+    "copilot_enabled": true
+  },
+  "scalper:AMD": {
+    "confidence": 0.4,
+    "contracts": 0,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "Low ML score; bot not active",
+    "copilot_enabled": false
+  },
+  "pairstrader:KO-PEP": {
+    "confidence": 0.59,
+    "contracts": 2,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "Moderate confidence; limited contract allocation",
+    "copilot_enabled": true
+  },
+  "momentumbot:TSLA": {
+    "confidence": 0.91,
+    "contracts": 6,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "High ML score and aligned with growth goal",
+    "copilot_enabled": true
+  },
+  "copybot:MIRROR": {
+    "confidence": 0.75,
+    "contracts": 2,
+    "cooldown": false,
+    "fallback_active": false,
+    "rationale": "Moderate confidence; limited contract allocation",
+    "copilot_enabled": true
+  }
+}

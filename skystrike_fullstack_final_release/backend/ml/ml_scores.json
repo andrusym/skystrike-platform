@@ -1,42 +1,42 @@
 {
   "ironcondor": {
-    "confidence": 0.876,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.886,
+    "timestamp": "2025-07-03T15:01:39.455612"
   },
   "kingcondor": {
-    "confidence": 0.788,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.798,
+    "timestamp": "2025-07-03T15:01:39.455634"
   },
   "spread": {
-    "confidence": 0.828,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.838,
+    "timestamp": "2025-07-03T15:01:39.455638"
   },
   "replicator": {
-    "confidence": 0.764,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.774,
+    "timestamp": "2025-07-03T15:01:39.455642"
   },
   "gridbot": {
-    "confidence": 0.724,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.734,
+    "timestamp": "2025-07-03T15:01:39.455646"
   },
   "dcabot": {
-    "confidence": 0.5,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.51,
+    "timestamp": "2025-07-03T15:01:39.455650"
   },
   "scalper": {
-    "confidence": 0.392,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.402,
+    "timestamp": "2025-07-03T15:01:39.455654"
   },
   "pairstrader": {
-    "confidence": 0.252,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.262,
+    "timestamp": "2025-07-03T15:01:39.455657"
   },
   "momentumbot": {
-    "confidence": 0.16,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.17,
+    "timestamp": "2025-07-03T15:01:39.455661"
   },
   "copybot": {
-    "confidence": 0.1,
-    "timestamp": "2025-06-29T21:27:11.584315"
+    "confidence": 0.11,
+    "timestamp": "2025-07-03T15:01:39.455665"
   }
 }

@@ -1,0 +1,6 @@
+*** Begin Patch
+*** Update File: backend/routes/bot_trading_routes.py
+@@
+-from bots import BOT_RUNNERS
++from backend.submit_order import BUILD_MAP as BOT_RUNNERS
+*** End Patch

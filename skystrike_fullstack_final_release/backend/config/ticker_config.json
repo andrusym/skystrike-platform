@@ -1,0 +1,83 @@
+{
+  "ironcondor": [
+    "SPX",
+    "QQQ",
+    "NDX"
+  ],
+  "kingcondor": [
+    "SPX"
+  ],
+  "wheel": [
+    "SPY",
+    "IWM",
+    "XSP"
+  ],
+  "spread": [
+    "QQQ",
+    "SPY"
+  ],
+  "csp": [
+    "AAPL",
+    "MSFT"
+  ],
+  "dcabot": [
+    "SPY"
+  ],
+  "scalper": [
+    "QQQ",
+    "SPY"
+  ],
+  "momentumbot": [
+    "AAPL",
+    "QQQ"
+  ],
+  "trend": [
+    "SPY",
+    "NDX"
+  ],
+  "replicator": [
+    "QQQ",
+    "SPY"
+  ],
+  "breakoutbot": [
+    "MSFT"
+  ],
+  "copybot": [
+    "AAPL"
+  ],
+  "gridbot": [
+    "SPY"
+  ],
+  "straddlebot": [
+    "NDX",
+    "QQQ"
+  ],
+  "gammafly": [
+    "SPX"
+  ],
+  "squeezehunter": [
+    "TSLA",
+    "AMD"
+  ],
+  "earningsbot": [
+    "NFLX",
+    "AMZN"
+  ],
+  "calendarbot": [
+    "SPY"
+  ],
+  "equity_buy": [
+    "VOO",
+    "VTI"
+  ],
+  "volharvest": [
+    "UVXY"
+  ],
+  "pairstrader": [
+    "SPY",
+    "QQQ"
+  ],
+  "ratioflybot": [
+    "SPX"
+  ]
+}

@@ -1,12 +1,25 @@
+# backend/engine/trading_engine.py
+
 """
-Handles trade execution logic, triggered from ML recommendations or user actions.
+Trading Engine: executes a built order payload via the submit_order module.
 """
 
-from backend.broker.submit_order import run_bot_with_params
+import logging
+from typing import Dict, Any
 
-def execute_trade(bot: str, ticker: str, contracts: int, dte: int = 0):
+logger = logging.getLogger(__name__)
+
+def execute_trade(bot_name: str, order_payload: Dict[str, Any]) -> None:
     """
-    Execute a trade using the specified bot and parameters.
+    Execute a single trade for the given bot.
     """
-    print(f"🚀 Executing trade: bot={bot}, ticker={ticker}, contracts={contracts}, dte={dte}")
-    return run_bot_with_params(bot_name=bot, ticker=ticker, contracts=contracts, dte=dte)
+    try:
+        # Lazy import to break circular dependency
+        from backend.submit_order import run_bot_with_params
+        logger.info(f"Executing trade for bot: {bot_name} with payload: {order_payload}")
+        run_bot_with_params(bot_name, order_payload)
+    except Exception as e:
+        logger.error(f"Failed to execute trade for {bot_name}: {e}")
+        raise
+
+__all__ = ["execute_trade"]

@@ -1,17 +1,17 @@
+# backend/dependencies/auth.py
+
 import os
-from dotenv import load_dotenv
 import jwt
+from dotenv import load_dotenv
 from datetime import datetime, timedelta
 from fastapi import Header, HTTPException, status
 from pydantic import BaseModel
 
-# Load .env from project root
-env_path = os.path.join(os.path.dirname(__file__), ".env")
-if not os.path.exists(env_path):
-    # fallback if you keep .env at project root
-    env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
+# Load environment variables from .env
+env_path = os.path.join(os.path.dirname(__file__), "..", "..", ".env")
 load_dotenv(dotenv_path=env_path, override=True)
 
+# JWT config
 SECRET_KEY = os.getenv("JWT_SECRET", "supersecretkey123")
 ALGORITHM = os.getenv("ALGORITHM", "HS256")
 EXPIRE_HOURS = int(os.getenv("ACCESS_TOKEN_EXPIRE_HOURS", "12"))
@@ -56,6 +56,7 @@ async def get_current_user(
     """
     if not authorization.startswith("Bearer "):
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid authorization header")
+
     token = authorization.split(" ", 1)[1]
 
     try:

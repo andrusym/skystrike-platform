@@ -1,13 +1,59 @@
-def score_strategy(strategy_name, ticker, setup):
-    return 0.85
+# backend/engine/ml_engine.py
+
+import os
 import json
+from datetime import datetime
 
-def load_ml_scores():
-    with open("data/ml_scores.json", "r") as f:
-        return json.load(f)
+ML_STATUS_PATH = "logs/ml_status.json"
+ML_SCORES_PATH = "logs/ml_scores.json"
 
-def evaluate_ml_status(scores: dict) -> str:
-    if not scores:
-        return "inactive"
-    avg = sum(scores.get(bot, {}).get("confidence", 0) for bot in scores) / len(scores)
-    return "active" if avg >= 0.5 else "degraded"
+
+def get_ml_status() -> dict:
+    """
+    Returns the current ML engine status based on a heartbeat file.
+    """
+    if not os.path.exists(ML_STATUS_PATH):
+        return {
+            "status": "unknown",
+            "message": "ML status file missing",
+            "fallback_active": True,
+        }
+
+    try:
+        with open(ML_STATUS_PATH, "r") as f:
+            return json.load(f)
+    except Exception as e:
+        return {
+            "status": "error",
+            "message": f"Error reading ML status: {str(e)}",
+            "fallback_active": True,
+        }
+
+
+def load_ml_scores() -> dict:
+    """
+    Load latest ML scores for all bots from file.
+    """
+    if not os.path.exists(ML_SCORES_PATH):
+        return {}
+
+    try:
+        with open(ML_SCORES_PATH, "r") as f:
+            return json.load(f)
+    except Exception as e:
+        return {
+            "error": f"Could not load ml_scores.json: {str(e)}"
+        }
+
+
+def evaluate_ml_status() -> str:
+    """
+    Quick logic to determine system status from ML heartbeat.
+    """
+    status = get_ml_status()
+    if status.get("status") == "healthy" and not status.get("fallback_active"):
+        return "? ML ACTIVE"
+    elif status.get("fallback_active"):
+        return "?? ML FALLBACK"
+    else:
+        return "? ML UNKNOWN"

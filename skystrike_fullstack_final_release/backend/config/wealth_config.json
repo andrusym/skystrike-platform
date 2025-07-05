@@ -1,11 +1,1 @@
-{
-  "target_allocations": {
-    "VOO": 40,
-    "QQQ": 30,
-    "IWM": 15,
-    "XLV": 15
-  },
-  "min_cash_reserve": 5000,
-  "dip_threshold_percent": 2.5,
-  "rebalance_frequency_days": 7
-}
+{ "SPY": { "dip_percent": 2.5, "target_allocation": 0.3 }, "QQQ": { "dip_percent": 3.0, "target_allocation": 0.2 } }

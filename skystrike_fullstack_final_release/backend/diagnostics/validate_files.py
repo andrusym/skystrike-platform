@@ -8,7 +8,7 @@ required_files = [
     "config/lifecycle_config.json",
     "config/fallback_config.json",
     "config/portfolio_profiles.json",
-    "config/wealth_config.json",
+    "data/wealth_config.json",
     "users.json",
     "trade_log.json",
     "ml_scores.json"

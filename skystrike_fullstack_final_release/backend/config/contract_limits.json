@@ -1,0 +1,39 @@
+{
+  "ironcondor": {
+    "SPX": 10,
+    "QQQ": 5,
+    "NDX": 3
+  },
+  "kingcondor": {
+    "SPX": 6
+  },
+  "wheel": {
+    "SPY": 20,
+    "IWM": 15,
+    "XSP": 25
+  },
+  "spread": {
+    "QQQ": 10,
+    "SPY": 12
+  },
+  "csp": {
+    "AAPL": 10,
+    "MSFT": 8
+  },
+  "scalper": {
+    "QQQ": 5,
+    "SPY": 5
+  },
+  "momentumbot": {
+    "AAPL": 10,
+    "QQQ": 8
+  },
+  "trend": {
+    "SPY": 12,
+    "NDX": 4
+  },
+  "replicator": {
+    "QQQ": 8,
+    "SPY": 10
+  }
+}

@@ -1,75 +1,68 @@
-# routes/bots.py
+# backend/routes/bots.py
+
+import inspect
+from typing import List, Any, Dict
 
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
-services.auth import verify_token
-from typing import Optional
 
-# ? Import all bot modules
-from bots import (
-    iron_condor,
-    king_condor,
-    wheel,
-    csp,
-    trend,
-    replicator,
-    gridbot,
-    dcabot,
-    scalper,
-    pairstrader,
-    momentumbot,
-    copybot
+from ..auth import get_current_user, User
+from ..submit_order import BUILD_MAP as BOT_RUNNERS
+
+router = APIRouter(
+    prefix="/api/bots",
+    tags=["bots"],
 )
 
-router = APIRouter()
-
-# --- Request Model ---
 class BotTriggerRequest(BaseModel):
     ticker: str
     contracts: int = 1
 
-# --- Bot Trigger Registry ---
-BOT_RUNNERS = {
-    "ironcondor": iron_condor.run_bot_with_params,
-    "kingcondor": king_condor.run_bot_with_params,
-    "wheel": wheel.run_bot_with_params,
-    "csp": csp.run_bot_with_params,
-    "trend": trend.run_bot_with_params,
-    "replicator": replicator.run_bot_with_params,
-    "gridbot": gridbot.run_bot_with_params,
-    "dcabot": dcabot.run_bot_with_params,
-    "scalper": scalper.run_bot_with_params,
-    "pairstrader": pairstrader.run_bot_with_params,
-    "momentumbot": momentumbot.run_bot_with_params,
-    "copybot": copybot.run_bot_with_params,
-}
+@router.get(
+    "/list",
+    response_model=List[str],
+    summary="List all available bots",
+)
+def list_bots(current_user: User = Depends(get_current_user)) -> List[str]:
+    """
+    Returns the list of bot names you can trigger.
+    """
+    return list(BOT_RUNNERS.keys())
 
-# --- General Bot Trigger Endpoint ---
-@router.post("/api/bots/trigger/{bot_name}")
+@router.post(
+    "/trigger/{bot_name}",
+    response_model=Dict[str, Any],
+    summary="Trigger a bot execution",
+)
 async def trigger_bot(
     bot_name: str,
     payload: BotTriggerRequest,
-    user=Depends(verify_token)
+    current_user: User = Depends(get_current_user),
 ):
-    bot_name = bot_name.lower()
-
-    if bot_name not in BOT_RUNNERS:
+    """
+    Executes the specified bot by name with your ticker & contract count.
+    """
+    key = bot_name.lower()
+    runner = BOT_RUNNERS.get(key)
+    if not runner:
         raise HTTPException(status_code=404, detail=f"Bot '{bot_name}' not found")
 
     try:
-        run_bot = BOT_RUNNERS[bot_name]
-        result = await run_bot(bot_name, payload.ticker, payload.contracts)
+        # Support both async and sync runners
+        if inspect.iscoroutinefunction(runner):
+            result = await runner(key, payload.ticker, payload.contracts)
+        else:
+            result = runner(key, payload.ticker, payload.contracts)
+
         return {
-            "status": "order placed",
-            "strategy": bot_name,
+            "status": "success",
+            "strategy": key,
             "ticker": payload.ticker,
             "contracts": payload.contracts,
-            "broker_response": result
+            "broker_response": result,
         }
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Bot '{bot_name}' failed: {str(e)}")
-
-# --- Optional: List All Available Bots ---
-@router.get("/api/bots/list")
-def list_bots():
-    return {"available_bots": list(BOT_RUNNERS.keys())}
+        raise HTTPException(
+            status_code=500,
+            detail=f"Bot '{key}' failed: {e}",
+        )

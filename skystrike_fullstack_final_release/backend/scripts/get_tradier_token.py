@@ -8,13 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Determine mode (live or sandbox)
-MODE = os.getenv("TRADIER_MODE", "sandbox").lower()
-if MODE not in ["live", "sandbox"]:
     raise ValueError("TRADIER_MODE must be either 'live' or 'sandbox'")
 
 # Set credentials and token URL based on mode
-if MODE == "live":
-    CLIENT_ID = os.getenv("TRADIER_LIVE_CLIENT_ID")
     CLIENT_SECRET = os.getenv("TRADIER_LIVE_CLIENT_SECRET")
     TOKEN_URL = "https://api.tradier.com/v1/oauth/token"
 else:

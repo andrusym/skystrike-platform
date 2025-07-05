@@ -40,7 +40,6 @@ class Settings(BaseSettings):
         env_file_encoding = "utf-8"
         extra = "ignore"
 
-
 settings = Settings()
 
 # Configure logging
@@ -97,6 +96,7 @@ from backend.routes.config_log_route       import router as config_log_router
 # Optional routers
 from backend.routes.api_positions          import router as positions_router
 from backend.routes.api_copilot            import router as copilot_router
+from backend.routes.webhook_listener       import router as webhook_router
 
 # Startup/shutdown events
 @app.on_event("startup")
@@ -107,17 +107,13 @@ async def on_startup():
 async def on_shutdown():
     logger.info("Application shutdown complete")
 
-
 # Auth + health
 app.include_router(login_router, prefix="/api", tags=["auth"])
-
-# Mount the config router exactly at its own prefix (/api/config)
 app.include_router(config_router)
 
 @app.get("/api/health", dependencies=[Depends(get_current_user)], tags=["health"])
 async def health_check():
     return {"status": "ok"}
-
 
 # Core API routes
 app.include_router(dashboard_router,       prefix="/api", tags=["dashboard"])
@@ -153,7 +149,7 @@ app.include_router(config_log_router,      prefix="/api", tags=["config_log"])
 # Optional routes
 app.include_router(positions_router,       prefix="/api", tags=["positions"])
 app.include_router(copilot_router,         prefix="/api", tags=["copilot"])
-
+app.include_router(webhook_router,         prefix="/api", tags=["webhook"])
 
 # Run via Uvicorn if invoked directly
 if __name__ == "__main__":

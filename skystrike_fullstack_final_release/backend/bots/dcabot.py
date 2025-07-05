@@ -1,14 +1,22 @@
+
 import logging
+from typing import Dict, Any
+from datetime import date, timedelta
+from backend.services.tradier_client import TradierClient
+from backend.services.option_lookup import get_tradier_option_symbol
+
+logger = logging.getLogger(__name__)
+
 # backend/bots/dcabot.py
 
 from backend.services.rounding_util import round_to_increment
 from backend.services.option_lookup    import get_tradier_option_symbol
-from typing import Dict, Any
-from datetime import date, timedelta
+
+
 from backend.services.option_lookup import get_tradier_option_symbol
 from backend.services.tradier_client import TradierClient
 
-logger = logging.getLogger(__name__)
+
 
 async def build_order(ticker: str, contracts: int, dte: int, mode: str) -> Dict[str, Any]:
     """
@@ -20,8 +28,8 @@ async def build_order(ticker: str, contracts: int, dte: int, mode: str) -> Dict[
     expiration = (date.today() + timedelta(days=dte)).strftime("%Y-%m-%d")
 
     # Fetch current market price
-    client = TradierClient(sandbox=(mode == "paper"))
-    quote = client.get_quote(ticker)
+    client = TradierClient(mode=mode)
+    quote = await client.get_quote(ticker)
     last_price = float(quote.get("last", 100))
 
     # Strike logic: ~92% of current price
@@ -29,8 +37,8 @@ async def build_order(ticker: str, contracts: int, dte: int, mode: str) -> Dict[
     long_strike  = short_strike - 5
 
     # Get Tradier-compliant option symbols
-    short_put = get_tradier_option_symbol(ticker, expiration, short_strike, "put")
-    long_put  = get_tradier_option_symbol(ticker, expiration, long_strike, "put")
+    short_put = await get_tradier_option_symbol(ticker, expiration, short_strike, "put")
+    long_put  = await get_tradier_option_symbol(ticker, expiration, long_strike, "put")
 
     legs = [
         {"option_symbol": short_put, "side": "sell", "quantity": contracts},

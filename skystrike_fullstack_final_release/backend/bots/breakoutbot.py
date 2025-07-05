@@ -1,27 +1,25 @@
-from backend.services.tradier_client import TradierClient
-import logging
-from backend.services.rounding_util import round_to_increment
-from backend.services.option_lookup    import get_tradier_option_symbol
-from backend.services.rounding_util import round_to_increment
-from backend.services.option_lookup    import get_tradier_option_symbol
 from typing import Dict, Any
+
+import logging
 from datetime import date, timedelta
+
+from backend.services.tradier_client import TradierClient
+from backend.services.option_lookup import get_tradier_option_symbol
+from backend.services.rounding_util import round_to_increment
 
 logger = logging.getLogger(__name__)
 
-async def build_order(ticker: str, contracts: int, dte: int, mode: str) -> Dict[str, Any]:
+async def build_order(ticker: str, contracts: int = 1, dte: int = 1, mode: str = "sandbox") -> Dict[str, Any]:
     """
-    Construct a bull call or bear put spread when price breaks resistance/support.
+    Construct a bull put spread when price breaks support.
     """
-
     expiration = (date.today() + timedelta(days=dte)).strftime("%Y-%m-%d")
     expiry_code = expiration.replace("-", "")
 
-    client = TradierClient(sandbox=(mode == "paper"))
-    quote = client.get_quote(ticker)
+    client = TradierClient(mode=mode)
+    quote = await client.get_quote(ticker)
     price = float(quote.get("last", 100))
 
-    # Example logic (customize per bot)
     short_strike = round_to_increment(price * 0.95, 0.5)
     long_strike  = short_strike - 5
 

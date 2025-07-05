@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
-auth import verify_token
-from bots import BOT_RUNNERS
+from backend.utils.auth import verify_token
+from backend.submit_order import BUILD_MAP as BOT_RUNNERS
 
 router = APIRouter()
 

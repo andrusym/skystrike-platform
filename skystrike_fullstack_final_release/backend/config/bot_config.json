@@ -1,14 +1,68 @@
 {
   "ironcondor": {
-    "active": true,
-    "tickers": ["SPX", "SPY", "QQQ", "NDX", "IWM", "XSP"],
-    "contracts": 6,
-    "dte": 0
+    "override": "none"
   },
   "kingcondor": {
-    "active": true,
-    "tickers": ["SPX", "SPY", "QQQ", "NDX"],
-    "contracts": 6,
-    "dte": 0
+    "override": "none"
+  },
+  "wheel": {
+    "override": "none"
+  },
+  "spread": {
+    "override": "none"
+  },
+  "csp": {
+    "override": "none"
+  },
+  "dcabot": {
+    "override": "none"
+  },
+  "scalper": {
+    "override": "none"
+  },
+  "momentumbot": {
+    "override": "none"
+  },
+  "trend": {
+    "override": "none"
+  },
+  "replicator": {
+    "override": "none"
+  },
+  "breakoutbot": {
+    "override": "none"
+  },
+  "copybot": {
+    "override": "none"
+  },
+  "gridbot": {
+    "override": "none"
+  },
+  "straddlebot": {
+    "override": "none"
+  },
+  "gammafly": {
+    "override": "none"
+  },
+  "squeezehunter": {
+    "override": "none"
+  },
+  "earningsbot": {
+    "override": "none"
+  },
+  "calendarbot": {
+    "override": "none"
+  },
+  "equity_buy": {
+    "override": "none"
+  },
+  "volharvest": {
+    "override": "none"
+  },
+  "pairstrader": {
+    "override": "none"
+  },
+  "ratioflybot": {
+    "override": "none"
   }
 }

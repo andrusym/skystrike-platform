@@ -5,7 +5,7 @@ import inspect
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 
-from backend.auth import get_current_user, User
+from backend.utils.auth_utils import get_current_user, User
 import backend.bots as bots_pkg
 
 router = APIRouter()

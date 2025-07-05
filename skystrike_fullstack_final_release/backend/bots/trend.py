@@ -1,16 +1,25 @@
-from backend.services.tradier_client import TradierClient
+
 import logging
+from typing import Dict, Any
+from datetime import date, timedelta
+from backend.services.tradier_client import TradierClient
+from backend.services.option_lookup import get_tradier_option_symbol
+
+logger = logging.getLogger(__name__)
+
+from backend.services.tradier_client import TradierClient
+
 # backend/bots/trend.py
 
 from backend.services.rounding_util import round_to_increment
 from backend.services.option_lookup    import get_tradier_option_symbol
-from typing import Dict, Any
-from datetime import date, timedelta
 
-from backend.bots.base import TradierClient
+
+
+from backend.services.tradier_client import TradierClient
 from backend.services.option_lookup import get_tradier_option_symbol
 
-logger = logging.getLogger(__name__)
+
 
 async def build_order(
     ticker: str,
@@ -27,8 +36,8 @@ async def build_order(
     expiration = (date.today() + timedelta(days=dte)).strftime("%Y-%m-%d")
 
     # Fetch latest quote
-    client = TradierClient(sandbox=(mode == "paper"))
-    quote = client.get_quote(ticker)
+    client = TradierClient(mode=mode)
+    quote = await client.get_quote(ticker)
     price = float(quote.get("last", 0))
 
     # Momentum logic: go deeper if price is falling
@@ -36,8 +45,8 @@ async def build_order(
     long_strike  = short_strike - 5
 
     # Build OCC-compliant option symbols (with automatic fallback)
-    short_put = get_tradier_option_symbol(ticker, expiration, short_strike, "put")
-    long_put  = get_tradier_option_symbol(ticker, expiration, long_strike,  "put")
+    short_put = await get_tradier_option_symbol(ticker, expiration, short_strike, "put")
+    long_put  = await get_tradier_option_symbol(ticker, expiration, long_strike,  "put")
 
     legs = [
         {"option_symbol": short_put, "side": "sell_to_open", "quantity": contracts},
